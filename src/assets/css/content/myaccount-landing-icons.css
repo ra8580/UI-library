@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'myaccount-landing-icons';
+    src: url(../fonts/myaccount-landing-icons.eot?#iefix) format("embedded-opentype"), url(../fonts/myaccount-landing-icons.woff2) format("woff2"), url(../fonts/myaccount-landing-icons.svg) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.icon-myaccount-landing {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'myaccount-landing-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mobile:before {
+    content: "\e900";
+}
+
+.icon-Download-01:before {
+    content: "\e917";
+}
+
+.icon-Edit-icon:before {
+    content: "\e918";
+}
+
+.icon-expand-plus-icon:before {
+    content: "\e919";
+}
+
+.icon-Hand:before {
+    content: "\e91c";
+}
+
+.icon-Internet-01:before {
+    content: "\e91d";
+    color: #131c35;
+}
+
+.icon-Internet-01:after {
+    content: "\e91e";
+    color: #e10a0a;
+    margin-left: -1em;
+}
+
+.icon-Lock-01:before {
+    content: "\e91f";
+    color: #000;
+}
+
+.icon-Lock-01:after {
+    content: "\e920";
+    color: #e10a0a;
+    margin-left: -1em;
+}
+
+.icon-Reboot:before {
+    content: "\e921";
+    color: #131c35;
+}
+
+.icon-Reboot:after {
+    content: "\e922";
+    color: #e10a0a;
+    margin-left: -1em;
+}
+
+.icon-star-icon:before {
+    content: "\e925";
+    color: #131c35;
+}
+
+.icon-star-icon:after {
+    content: "\e926";
+    color: #e10a0a;
+    margin-left: -1em;
+}
+
+.icon-TV-01:before {
+    content: "\e929";
+    color: #131c35;
+}
+
+.icon-TV-01:after {
+    content: "\e92a";
+    color: #e10a0a;
+    margin-left: -1em;
+}
+
+.icon-Unlimited:before {
+    content: "\e92b";
+}
+
+.icon-Upload-01:before {
+    content: "\e92c";
+}
+
+.icon-External:before {
+    content: "\e92e";
+}
+
+.icon-Lock-thin:before {
+    content: "\e92f";
+    color: #131c35;
+}
+
+.icon-Lock-thin:after {
+    content: "\e930";
+    color: #e10a0a;
+    margin-left: -1em;
+}
+
+.icon-Link-chain:before {
+    content: "\e931";
+    color: #131c35;
+}
+
+.icon-Link-chain:after {
+    content: "\e932";
+    color: #e10a0a;
+    margin-left: -1em;
+}
+
+.App-phone-icons:before {
+    content: "\e933";
+    color: #131c35;
+}
+
+.App-phone-icons:after {
+    content: "\e934";
+    color: #e10a0a;
+    margin-left: -1em;
+}
+
+.icon-Edit-pen:before {
+    content: "\e937";
+    color: #e10a0a;
+}
+
+.icon-Edit-pen:after {
+    content: "\e938";
+    color: #131c35;
+    margin-left: -1em;
+}
+
+.icon-Forum-message:before {
+    content: "\e93a";
+    color: #e10a0a;
+}
+
+.icon-Forum-message:after {
+    content: "\e93b";
+    color: #131c35;
+    margin-left: -1em;
+}
+
+.icon-Reboot-colored:before {
+    content: "\e94a";
+    color: #131c35;
+}
+
+.icon-Reboot-colored:after {
+    content: "\e94b";
+    color: #e10a0a;
+    margin-left: -1em;
+}
+
+.icon-Support-headset:before {
+    content: "\e94e";
+    color: #131c35;
+}
+
+.icon-Support-headset:after {
+    content: "\e94f";
+    color: #e10a0a;
+    margin-left: -1em;
+}
+
+.icon-Virtually-repair-pc:before {
+    content: "\e951";
+    color: #131c35;
+}
+
+.icon-Virtually-repair-pc:after {
+    content: "\e952";
+    color: #e10a0a;
+    margin-left: -1em;
+}
+
+.icon-Modem-Steve:before {
+    content: "\e965";
+    color: #e10a0a;
+}
+
+.icon-Modem-Steve:after {
+    content: "\e966";
+    color: #131c35;
+    margin-left: -1em;
+}
+
+.icon-edit-filled:before {
+    content: "\e969";
+}
+
+.icon-arrow-down-slim:before {
+    content: "\e96a";
+}
+
+.icon-arrow-up-slim:before {
+    content: "\e96b";
+}
+
+.icon-list-multicolor:before {
+    content: "\e96c";
+    color: #131c35;
+}
+
+.icon-list-multicolor:after {
+    content: "\e96d";
+    color: #e10a0a;
+    margin-left: -1em;
+}
+
+.icon-troubleshoot-error:before {
+    content: "\e970";
+    color: #e10a0a;
+}
+
+.icon-troubleshoot-error:after {
+    content: "\e971";
+    color: #131c35;
+    margin-left: -1em;
+}
+
+.icon-Filter-01:before {
+    content: "\e91a";
+    color: #131c35;
+}
+
+.icon-Filter-01:after {
+    content: "\e91b";
+    color: #E10A0A;
+    margin-left: -1em;
+}

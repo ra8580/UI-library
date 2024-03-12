@@ -1,0 +1,2956 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.myaccount-landing {
+    overflow: hidden;
+}
+
+#profile_reminder_lightbox .modal-header .close {
+    margin-top: 0;
+    margin-right: 0;
+}
+/* START - Internet Usage */
+.internet-usage-accordion-trigger {
+    width: calc(100% - 32px);
+    height: calc(100% - 40px);
+    top: 20px;
+    left: 16px;
+    right: 16px;
+    z-index: 4;
+}
+
+    .internet-usage-accordion-trigger[aria-expanded="false"] ~ .internet-usage-heading .arrow-up,
+    .internet-usage-accordion-trigger[aria-expanded="true"] ~ .internet-usage-heading .arrow-down {
+        display: none;
+    }
+
+/* END - Internet Usage */
+
+/* START - Internet PLAN style */
+.InternetusageIcons ul > li:first-child {
+    padding-top: 16px;
+}
+
+.InternetusageIcons ul > li .volt-icon {
+    transform: translateY(2px);
+}
+
+.internet-plan-info-wrapper ul > li .icon-myaccount-landing {
+    transform: translateY(2px);
+}
+
+.internet-plan-info-wrapper ul > li .speed,
+.internet-plan-info-wrapper ul > li .usage {
+    font-weight: 600;
+}
+/* END  - Internet PLAN style */
+
+/* START - usagebar */
+.usagebar-meter {
+    gap: 1px;
+}
+
+.used,
+.left {
+    min-height: 25px;
+}
+/* END - usagebar */
+/*START - Skip link*/
+.skip-to-main-link {
+    display: inline-block;
+    position: absolute;
+    transition: left .3s ease-out;
+    left: -300px;
+    margin-top: 8px;
+    margin-left: 8px;
+    z-index: 3000;
+    font-size: 13px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #131C35;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 20px 0px rgba(19, 28, 53, 0.20);
+    font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #131C35;
+    text-decoration: none;
+}
+
+    .skip-to-main-link:focus {
+        left: 0;
+        outline: 2px solid #4E4AE4;
+        outline-offset: 3px;
+    }
+
+header .skip-to-main-link,
+header .skip-to-main-link:focus {
+    top: -50px;
+    left: 0;
+    transition: top 0.3s ease-out;
+    z-index: 9999999;
+}
+
+    header .skip-to-main-link:focus {
+        top: 0
+    }
+/*END - Skip link*/
+/* START - barchart inside internet usage */
+.internet-usage-wrapper ~ .bar-chart {
+    border-radius: 0 0 16px 16px;
+}
+/* END - barchart inside internet usage */
+
+.top-container .top-heading-container > * {
+    max-width: calc(100% - 59px); /* 44px for 3 slick dots + 15px horizontal spacing */
+}
+
+.top-container .top-heading-container > .cs-service-container {
+    max-width: 100%;
+}
+
+.top-container .PersonalizationTilesContainer ~ .top-container-bottom-spacer {
+    padding: 0;
+}
+
+.top-container .PersonalizationTilesContainer.pers-top-right-controls.pers-transparent .personalization-slider-container .slick-dots > li button {
+    height: 8px;
+    width: 8px;
+}
+
+/* start - my services side links */
+.side-services-link-icon-on-hover,
+.sidebar-services-link:hover .side-services-link-icon-default,
+.sidebar-services-link:focus .side-services-link-icon-default {
+    display: none;
+}
+
+.sidebar-services-link:hover .side-services-link-icon-on-hover,
+.sidebar-services-link:focus .side-services-link-icon-on-hover {
+    display: initial;
+}
+
+.sidebar-services-links:not(.sidebar-nav-disclosure-links) .sidebar-services-link:hover .anchor-text strong,
+.sidebar-services-links:not(.sidebar-nav-disclosure-links) .sidebar-services-link:focus .anchor-text strong {
+    color: #131C35;
+}
+
+.sidebar-services-link.sidebar-services-link:hover .anchor-text span,
+.sidebar-services .sidebar-nav-disclosure .sidebar-nav-disclosure-trigger .anchor-text span {
+    text-decoration: none;
+}
+
+.sidebar-services a:hover,
+.sidebar-services a:active,
+.sidebar-services a:focus,
+.sidebar-services a:hover .anchor-text,
+.sidebar-services a:active .anchor-text,
+.sidebar-services a:focus .anchor-text {
+    background-color: #F3F2F0;
+    border-radius: 16px;
+}
+
+.sidebar-services a.sidebar-links-trigger:hover,
+.sidebar-services a.sidebar-links-trigger:active,
+.sidebar-services a.sidebar-links-trigger:focus,
+.sidebar-services a.sidebar-links-trigger:hover .anchor-text,
+.sidebar-services a.sidebar-links-trigger:active .anchor-text,
+.sidebar-services a.sidebar-links-trigger:focus .anchor-text {
+    background-color: transparent;
+    border-radius: 1px;
+}
+/* end - my services side links */
+
+/* start - my services side nav */
+
+.sidebar-links-trigger[aria-expanded="false"] .sidebar-services-icon-all,
+.sidebar-links-trigger[aria-expanded="true"] .sidebar-services-text-all,
+.sidebar-links-trigger[aria-expanded="true"] .sidebar-services-icon-less,
+.sidebar-links-trigger[aria-expanded="false"] .sidebar-services-text-less,
+.sidebar-nav-disclosure-trigger[aria-expanded="false"] .sidebar-dropdown-img .arrow-up,
+.sidebar-nav-disclosure-trigger[aria-expanded="true"] .sidebar-dropdown-img .arrow-down {
+    display: none;
+}
+
+#sidebar-services-panel {
+    border: none;
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0px 8px 20px 0px rgba(19, 28, 53, 0.20);
+}
+
+.sidebar-nav-disclosure-trigger.sidebar-nav-disclosure-trigger:hover,
+.sidebar-nav-disclosure-trigger.sidebar-nav-disclosure-trigger:focus {
+    border-radius: 16px 16px 0 0;
+    z-index: 3;
+}
+/* end - my services side nav */
+
+.icon-link-decoration-none:before {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* start - my bill component */
+.bills-accordion-item:first-child:not(.expanded) {
+    border-radius: 16px 16px 0 0;
+}
+
+.bills-accordion-item.expanded + .bills-accordion-item:not(:first-child):not(.expanded),
+.bills-accordion-item.expanded + div:not(.bills-accordion-item) {
+    border-top: none;
+}
+
+.bills-accordion-item:not(.expanded) .bills-accordion-title {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+
+.bills-accordion-item:not(.expanded) .bills-pay-date,
+.bills-accordion-item:not(.expanded) .bills-pay-date .copy-medium-bold {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.bills-pay-date .copy-medium-bold {
+    margin-left: 4px;
+}
+
+.bills-accordion .bills-accordion-item:not(.expanded) .bills-accordion-item-group .bills-notify-payment {
+    display: none;
+}
+
+.bills-accordion-item-trigger > span {
+    pointer-events: none;
+}
+
+.bills-notify-payment-on-mobile {
+    display: block;
+}
+
+.bills-accordion-item.expanded .bills-buttons-wrapper {
+    display: flex;
+}
+
+.bills-accordion-item.expanded .bottom-text-wrapper {
+    display: block;
+}
+
+.bills-accordion-item:not(.expanded) .bills-accordion-item-inner .bills-buttons-wrapper,
+.bills-accordion-item:not(.expanded) .bills-accordion-item-inner .bottom-text-wrapper {
+    display: none;
+}
+/* end - my bill component */
+.btn.disabled.tooltip-interactive {
+    pointer-events: auto !important;
+    cursor: default;
+}
+
+/*LOADER*/
+.loader-quarter .loading-indicator-circle {
+    background-image: url(/Resource/VRF/content/images/loading-spinner-quarter.png);
+}
+
+.loading-indicator-circle {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    margin-right: 10px;
+    vertical-align: middle;
+    -webkit-animation: spin 1.1s linear infinite;
+    -moz-animation: spin 1.1s linear infinite;
+    animation: spin 1.1s linear infinite
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+/* End of loader centered within a container */
+
+.loader-backdrop-show ~ .loader-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+/* Toaster */
+.toaster-modal .modal-content {
+    box-shadow: 0px 8px 20px 0px rgba(19, 28, 53, 0.20);
+}
+
+/* CONTAINER */
+.personalization-revamped-container .personalization-slider-container.boxShadow-none {
+    box-shadow: none;
+    background: none;
+    background: none;
+}
+
+/* Comment if the img container for nba lightbox is changed*/
+.details-image-container .image-content > div {
+    width: 156px;
+}
+
+/*Billing Period*/
+
+.meter-block {
+    background-color: #4E4AE4;
+    opacity: 0.2;
+    margin-right: 2px;
+}
+
+    .meter-block:first-child {
+        border-radius: 4px 0px 0px 4px;
+    }
+
+    .meter-block:last-child {
+        margin-right: 0;
+        border-radius: 0px 4px 4px 0px;
+    }
+
+    .meter-block.dayspassed {
+        opacity: 1;
+    }
+
+.meter-line-divider {
+    position: absolute;
+    background-color: #4E4AE4;
+    height: 92px;
+    width: 2px;
+    top: 0;
+    right: 0;
+}
+
+.billing-period-bottom-info {
+    padding-right: 8px;
+    margin-top: 24px;
+}
+
+    .billing-period-bottom-info:not(.position-right) {
+        text-align: right;
+    }
+
+    .billing-period-bottom-info.position-right {
+        align-self: flex-end;
+        align-items: flex-start !important;
+        padding-left: 6px;
+        padding-right: 0px;
+    }
+/*End - Billing Period*/
+
+/* START STANDALONE SLIDES/TILES */
+.service-details .standalone-slide-container .personalization-template-a .personalization-tertiary-cta {
+    align-self: flex-start;
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 0;
+}
+/* END STANDALONE SLIDES/TILES */
+
+/*START- NBA (Exclusive Offers) styles*/
+.nba-offers > div {
+    padding-top: 44px;
+    border: 1px solid #CDCFD5;
+}
+
+.availability-for-wrapper .copy-small.bg-dust {
+    border: 1px solid #CDCFD5;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    align-items: center;
+}
+
+.availability-for-wrapper {
+    margin-top: -8px;
+}
+
+    .availability-for-wrapper .icon-mobile.icon-myaccount-landing {
+        padding-right: 4px;
+    }
+
+/*END- NBA (Exclusive Offers) styles*/
+
+/* TOASTER MODAL */
+.toaster-modal::after {
+    background-color: transparent;
+}
+
+.toaster-modal.show .modal-dialog {
+    align-items: flex-start;
+}
+
+.toaster-modal .bottom-initial {
+    bottom: initial;
+}
+
+/* END TOASTER MODAL */
+
+/* START Maverick Personalization */
+
+#myaccountLanding .personalization-tile-container .fly-out-menu {
+    z-index: 999;
+    right: 0;
+    top: 0;
+    display: inline-flex;
+    position: absolute;
+    padding-right: 4px;
+}
+
+    #myaccountLanding .personalization-tile-container .fly-out-menu .icon-dap.icon-burger_stroke,
+    #myaccountLanding .personalization-tile-container .fly-out-menu .icon-dap.icon-like_stroke {
+        font-size: 16px !important;
+        padding: 10px 6px !important;
+        display: inline-block !important;
+        color: #555 !important;
+    }
+
+    #myaccountLanding .personalization-tile-container .fly-out-menu .icon-dap.icon-like_stroke {
+        padding: 10px 6px;
+    }
+
+    #myaccountLanding .personalization-tile-container .fly-out-menu.fly-out-menu a {
+        position: relative;
+        outline: 0 !important;
+    }
+
+    #myaccountLanding .personalization-tile-container .fly-out-menu .dap-like-toggle:focus:after,
+    #myaccountLanding .personalization-tile-container .fly-out-menu .dap-filter-trigger:focus:after {
+        outline-offset: 2px !important;
+        outline: 1px solid #4E4AE4 !important;
+        border-radius: 1px;
+        box-shadow: none !important;
+        height: calc(100% - 10px) !important;
+        width: calc(100% - 8px) !important;
+        position: absolute !important;
+        top: 5px !important;
+        left: 4px !important;
+    }
+
+#myaccountLanding .icon-dap.icon-dap.icon-burger_stroke .path2:before {
+    color: #131C35;
+}
+
+#myaccountLanding .personalization-downrate .icon-dap.icon-dap.icon-burger_stroke .path2:before {
+    color: #E10A0A;
+}
+
+#myaccountLanding .top-container .PersonalizationTilesContainer.pers-transparent:not(.pers-vertical) {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#myaccountLanding .personalization-slider-container .personalization-tile-container {
+    background-color: #FFFFFF !important;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+#myaccountLanding .PersonalizationTilesContainer.pers-narrow[data-location="bottom"] .personalization-slider-container .personalization-tile-container {
+    border: 1px solid #CDCFD5;
+}
+
+#myaccountLanding .personalization-slider-container.personalization-slider-container.personalization-slider-container .personalization-tile-content-container a {
+    position: relative;
+}
+
+#myaccountLanding .personalization-revamped a {
+    position: relative;
+}
+
+#myaccountLanding .PersonalizationTilesContainer .flex-justify-space-between {
+    justify-content: space-between;
+}
+
+#myaccountLanding .personalization-slider-container .slick-slide .personalization-revamped.personalization-template-b .personalization-tile-image-container img {
+    display: none;
+}
+
+#myaccountLanding .personalization-tile-container:not(.personalization-revamped) .personalization-tile-image-container {
+    box-shadow: none;
+}
+
+#myaccountLanding .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container {
+    padding-left: 16px;
+    padding-right: 24px;
+}
+
+#myaccountLanding .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container .personalization-tile-cta-container {
+    margin-bottom: 24px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container .personalization-tile-cta-container,
+#myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container .personalization-tile-cta-container {
+    margin-left: 16px;
+}
+
+#myaccountLanding .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container .personalization-tile-cta-container .custom-separator {
+    display: none;
+}
+
+/* personalization account */
+#myaccountLanding .personalization-slider-container.responsive .personalization-revamped .personalization-account,
+#myaccountLanding .personalization-slider-container.responsive .personalization-tag {
+    font-family: 'Poppins-SemiBold',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #444D63 !important;
+    line-height: 135%;
+    letter-spacing: normal;
+    margin-bottom: 12px;
+}
+
+    #myaccountLanding .personalization-slider-container.responsive .personalization-revamped .personalization-account b,
+    #myaccountLanding .personalization-slider-container.responsive .personalization-revamped .personalization-account .category,
+    #myaccountLanding .personalization-slider-container.responsive .personalization-tag .category {
+        font-weight: normal;
+    }
+
+    #myaccountLanding .personalization-slider-container.responsive .personalization-revamped .personalization-account small,
+    #myaccountLanding .personalization-slider-container.responsive .personalization-revamped .personalization-account .identifier,
+    #myaccountLanding .personalization-slider-container.responsive .personalization-tag .identifier {
+        font-family: 'Poppins',Helvetica,Arial,sans-serif;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+/* personalization title */
+#myaccountLanding .personalization-slider-container.responsive .personalization-revamped .personalization-title,
+#myaccountLanding .standalone-slide-container.responsive .personalization-revamped .personalization-title,
+#myaccountLanding .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-title {
+    font-family: 'Poppins-SemiBold',Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    color: #131C35 !important;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+/* personalization description */
+#myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container .personalization-description,
+#myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container .personalization-description {
+    color: #131C35 !important;
+}
+
+/* personalization ctas */
+#myaccountLanding .personalization-slider-container.responsive .personalization-revamped .personalization-primary-cta,
+#myaccountLanding .standalone-slide-container.responsive .personalization-revamped .personalization-primary-cta,
+#myaccountLanding .personalization-slider-container.responsive .personalization-revamped .personalization-secondary-cta,
+#myaccountLanding .personalization-slider-container .slick-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta,
+#myaccountLanding .standalone-slide-container .standalone-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta {
+    font-family: 'Poppins-SemiBold',Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+
+/* personalization ctas - primary cta */
+#myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta,
+#myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta {
+    font-size: 14px;
+    color: #FFFFFF !important;
+    line-height: 18px;
+    background-color: #E10A0A !important;
+    padding: 7px 16px;
+    border: none !important;
+    border-radius: 4px;
+}
+
+    #myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover,
+    #myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:focus,
+    #myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover,
+    #myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:focus {
+        background-color: #A40000 !important;
+    }
+
+/* personalization ctas - secondary cta */
+#myaccountLanding .personalization-slider-container.responsive .personalization-revamped .personalization-secondary-cta {
+    font-size: 12px;
+    color: #4E4AE4 !important;
+    line-height: 135%;
+    text-underline-offset: 4px;
+}
+
+    #myaccountLanding .personalization-slider-container.responsive .personalization-revamped .personalization-secondary-cta:hover {
+        color: #2724A3 !important;
+    }
+
+    #myaccountLanding .personalization-slider-container.responsive .personalization-revamped .personalization-secondary-cta:focus {
+        text-decoration: underline !important;
+    }
+
+/* personalization ctas - tertiary cta */
+#myaccountLanding .personalization-slider-container .slick-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta,
+#myaccountLanding .standalone-slide-container .standalone-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta {
+    font-size: 12px;
+    color: #4E4AE4 !important;
+    line-height: 14px;
+    text-underline-offset: 4px;
+}
+
+/*personalization ctas - non revamped*/
+#myaccountLanding .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container .personalization-tile-cta-container a:not(.btn) {
+    display: inline-flex;
+    font-size: 14px;
+    color: #FFFFFF !important;
+    line-height: 18px;
+    background-color: #E10A0A !important;
+    padding: 7px 16px !important;
+    border: none !important;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+    #myaccountLanding .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container .personalization-tile-cta-container a:not(.btn):focus,
+    #myaccountLanding .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container .personalization-tile-cta-container a:not(.btn):hover {
+        background-color: #A40000 !important;
+        color: #FFFFFF !important;
+    }
+
+#myaccountLanding .personalization-slider-container .slick-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta:hover,
+#myaccountLanding .standalone-slide-container .standalone-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta:hover {
+    color: #2724A3 !important;
+}
+
+#myaccountLanding .personalization-slider-container .slick-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta:focus,
+#myaccountLanding .standalone-slide-container .standalone-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta:focus {
+    text-decoration: underline !important;
+}
+
+#myaccountLanding .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container a:not(.btn),
+#myaccountLanding .personalization-slider-container.responsive .slick-slide .personalization-tile-container.personalization-revamped.personalization-support a {
+    color: #4E4AE4 !important;
+}
+
+    #myaccountLanding .personalization-slider-container.responsive .slick-slide .personalization-tile-container.personalization-revamped.personalization-support a:hover,
+    #myaccountLanding .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container a:not(.btn):hover {
+        color: #2724A3 !important;
+    }
+
+#myaccountLanding .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container a:not(.btn) {
+    text-underline-offset: 4px;
+    line-height: 135%;
+    font-family: 'Poppins-SemiBold',Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+    font-size: 12px;
+}
+
+/* personalization ctas - load more offers */
+#myaccountLanding .load-more-offers {
+    font-size: 14px;
+    padding: 5px 14px;
+}
+
+/* personalization border - location="middle" and location="MEMBER_BENEFITS" */
+#myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-template-a,
+#myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-template-a {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"].pers-vertical.pers-vertical .personalization-slider-container.personalization-slider-container > div.slick-slide-wrapper-active + div.slick-slide-wrapper-active {
+    margin-top: 0;
+}
+
+#myaccountLanding .PersonalizationTilesContainer.pers-vertical.pers-vertical .personalization-slider-container.personalization-slider-container > div.slick-slide-wrapper-active + div.slick-slide-wrapper-active {
+    margin-top: 16px;
+}
+
+/* personalization slick arrow */
+#myaccountLanding .personalization-slider-container.personalization-slider-container .slick-prev:before,
+#myaccountLanding .personalization-slider-container.personalization-slider-container .slick-next:before,
+#myaccountLanding .PersonalizationTilesContainer.pers-top-right-controls .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-controls .slick-arrow {
+    font-family: 'vrf-icons' !important;
+    line-height: 1 !important;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    height: 40px;
+    width: 40px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .personalization-slider-container.personalization-slider-container .slick-prev:before,
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .personalization-slider-container.personalization-slider-container .slick-next:before,
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"].pers-top-right-controls .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-controls .slick-arrow,
+#myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-slider-container.personalization-slider-container .slick-prev:before,
+#myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-slider-container.personalization-slider-container .slick-next:before,
+#myaccountLanding .PersonalizationTilesContainer[data-location="bottom"].pers-top-right-controls .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-controls .slick-arrow {
+    font-family: 'vrf-icons' !important;
+    line-height: 1 !important;
+    border-radius: 50%;
+    border: 2px solid #4E4AE4;
+    height: 40px;
+    width: 40px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="top"].pers-transparent .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-arrow:after,
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"].pers-transparent .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-arrow:after,
+#myaccountLanding .PersonalizationTilesContainer[data-location="bottom"].pers-transparent .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-arrow:after {
+    content: "\e90b" !important;
+    font-size: 20px;
+    height: 32px !important;
+    width: 32px !important;
+    color: #4E4AE4;
+    background-color: transparent !important;
+    top: 2px !important;
+    left: 2px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute !important;
+    transform: none !important;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="top"].pers-transparent .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-prev.slick-arrow:after,
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"].pers-transparent .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-prev.slick-arrow:after,
+#myaccountLanding .PersonalizationTilesContainer[data-location="bottom"].pers-transparent .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-prev.slick-arrow:after {
+    content: "\e909" !important;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="top"].pers-transparent .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-arrow:after {
+    color: #fff;
+}
+
+#myaccountLanding .PersonalizationTilesContainer.pers-transparent .personalization-slider-container.personalization-slider-container .slick-arrow.slick-disabled {
+    opacity: 0.4 !important;
+}
+
+#myaccountLanding .PersonalizationTilesContainer.pers-transparent .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-arrow.slick-disabled:after {
+    background-color: transparent !important;
+}
+
+#myaccountLanding .PersonalizationTilesContainer.pers-transparent .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-arrow:before {
+    content: "" !important;
+    display: none;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"].pers-top-right-controls .personalization-slider-container .slick-controls .slick-dots > li.slick-active button,
+#myaccountLanding .PersonalizationTilesContainer[data-location="bottom"].pers-top-right-controls .personalization-slider-container .slick-controls .slick-dots > li.slick-active button {
+    background: #4E4AE4;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"].pers-top-right-controls .personalization-slider-container .slick-controls .slick-dots > li button,
+#myaccountLanding .PersonalizationTilesContainer[data-location="bottom"].pers-top-right-controls .personalization-slider-container .slick-controls .slick-dots > li button {
+    margin: 0;
+    padding: 0;
+    height: 8px;
+    width: 8px;
+    opacity: 1;
+    border: 1px solid #4E4AE4;
+    border-radius: 50%;
+    background: transparent;
+}
+
+/* standalone-slide */
+#myaccountLanding .standalone-slide-container.responsive .standalone-slide .personalization-revamped.personalization-template-a {
+    background-color: #fff !important;
+    border: 1px solid #CDCFD5;
+    border-radius: 16px;
+}
+
+#myaccountLanding .standalone-slide-container.responsive .standalone-slide:first-child:nth-last-child(1) .personalization-tile-container.personalization-revamped.personalization-template-a.personalization-img-first .personalization-tile-content-container {
+    padding: 24px 16px;
+}
+
+#myaccountLanding .standalone-slide-container .standalone-slide .personalization-description {
+    line-height: 135%;
+    color: #131C35 !important;
+    margin-top: 6px;
+}
+/* END Maverick Personalization */
+
+/* DAP - Location = "top" */
+#myaccountLanding .PersonalizationTilesContainer[data-location=top] .personalization-wrapper {
+    margin-top: 16px;
+}
+
+/* START DAP - BILLING */
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"].pers-vertical.pers-vertical .personalization-slider-container > div.slick-slide-wrapper-active {
+    border: 1px solid #CDCFD5;
+    border-top: none;
+    border-radius: 0;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"].pers-vertical.pers-vertical .personalization-slider-container > div.slick-slide-wrapper-last-active {
+    border-radius: 0 0 16px 16px;
+}
+
+#myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert .personalization-tile-image-container img,
+#myaccountLanding .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert .personalization-tile-image-container img {
+    height: 32px;
+    width: 32px !important;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert .personalization-account-tag,
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"] .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert .personalization-account-tag {
+    color: #131C35 !important;
+    background-color: #F3F2F0;
+    border: 1px solid #CDCFD5;
+    padding: 4px 8px 3px 8px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert .personalization-date,
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"] .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert .personalization-date {
+    color: #444D63 !important;
+    line-height: 14px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert.personalization-themed-alert div.personalization-title.personalization-title {
+    font-family: 'Poppins',Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert .personalization-tile-content-container .personalization-tile-details-container > div:not(.personalization-title),
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"] .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert .personalization-tile-content-container .personalization-tile-details-container > div:not(.personalization-title) {
+    margin-bottom: 8px;
+}
+
+#myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert:not(.personalization-support) .personalization-primary-cta,
+#myaccountLanding .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert:not(.personalization-support) .personalization-primary-cta {
+    font-family: 'Poppins-SemiBold',Helvetica,Arial,sans-serif !important;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: transparent !important;
+    color: #4E4AE4 !important;
+    padding: 0;
+}
+
+    #myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert:not(.personalization-support) .personalization-primary-cta:hover,
+    #myaccountLanding .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert:not(.personalization-support) .personalization-primary-cta:hover {
+        background-color: transparent !important;
+        color: #2724A3 !important;
+    }
+
+    #myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert:not(.personalization-support) .personalization-primary-cta:focus,
+    #myaccountLanding .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert:not(.personalization-support) .personalization-primary-cta:focus {
+        background-color: transparent !important;
+        text-decoration: underline;
+    }
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert .personalization-tile-content-container .personalization-tile-details-container a.personalization-primary-cta:focus::before,
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"] .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert .personalization-tile-content-container .personalization-tile-details-container a.personalization-primary-cta:focus::before {
+    display: none;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert .personalization-tile-content-container .personalization-tile-details-container a.personalization-primary-cta:focus,
+#myaccountLanding .PersonalizationTilesContainer[data-location="billing"] .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-themed-alert .personalization-tile-content-container .personalization-tile-details-container a.personalization-primary-cta:focus {
+    outline-offset: 2px !important;
+    outline: 1px solid #4E4AE4 !important;
+    border-radius: 1px;
+}
+/* END DAP - BILLING */
+
+/* START DAP - SERVICES */
+#myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container .personalization-tile-container {
+    background-color: #F3F2F0 !important;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.responsive .slick-slide:first-child:nth-last-child(1) .personalization-tile-container.personalization-revamped .personalization-tile-content-container {
+    padding: 24px 16px;
+    min-width: 0;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.responsive .personalization-revamped .personalization-description,
+#myaccountLanding .PersonalizationTilesContainer[data-location="services"] .standalone-slide-container.responsive .personalization-revamped .personalization-description {
+    font-size: 14px;
+    line-height: 135%;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.responsive .slick-slide .personalization-tile-container.personalization-revamped .personalization-tile-content-container .personalization-tile-cta-container,
+#myaccountLanding .PersonalizationTilesContainer[data-location="services"] .standalone-slide-container.responsive .standalone-slide .personalization-tile-container.personalization-revamped .personalization-tile-content-container .personalization-tile-cta-container {
+    margin-top: 8px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta,
+#myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta {
+    color: #4E4AE4 !important;
+    background-color: transparent !important;
+    padding: 0;
+    margin-top: 8px;
+    border: none !important;
+    text-align: left;
+}
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:after,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:after {
+        content: '\e90c';
+        font-family: 'vrf-icons';
+        font-size: 12px;
+        display: inline-block;
+        text-decoration: none;
+        margin-left: 4px;
+    }
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover {
+        color: #2724A3 !important;
+        text-decoration: underline;
+    }
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container .slick-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta:focus::before,
+#myaccountLanding .PersonalizationTilesContainer[data-location="services"] .standalone-slide-container .standalone-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta:focus::before {
+    outline-offset: 2px;
+    outline: 1px solid #4E4AE4;
+    border-radius: 1px;
+    box-shadow: none !important;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container .slick-slide .personalization-revamped.personalization-bleed-images .personalization-tile-content-container {
+    background: #F3F2F0 !important;
+}
+
+/* END DAP - SERVICES */
+
+/* START DAP - LOCATION MIDDLE (Offers and Member Benefits)*/
+#myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container .personalization-tile-container,
+#myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container .personalization-tile-container {
+    background-color: #F3F2F0 !important;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container.responsive .slick-slide .personalization-revamped .personalization-tile-content-container,
+#myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .standalone-slide-container.responsive .standalone-slide .personalization-revamped .personalization-tile-content-container,
+#myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container.responsive .slick-slide .personalization-revamped .personalization-tile-content-container,
+#myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .standalone-slide-container.responsive .standalone-slide .personalization-revamped .personalization-tile-content-container {
+    padding: 16px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container.responsive .personalization-revamped .personalization-title,
+#myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .standalone-slide-container.responsive .personalization-revamped .personalization-title,
+#myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container.responsive .personalization-revamped .personalization-title,
+#myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .standalone-slide-container.responsive .personalization-revamped .personalization-title {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container.responsive .slick-slide:first-child:nth-last-child(1) .personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-description,
+#myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container:not(.responsive) .slick-slide:first-child:nth-last-child(1) .personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-description,
+#myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container.responsive .slick-slide:first-child:nth-last-child(1) .personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-description,
+#myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container:not(.responsive) .slick-slide:first-child:nth-last-child(1) .personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-description {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta,
+#myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta,
+#myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta,
+#myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta {
+    color: #131C35 !important;
+    background-color: transparent !important;
+    padding: 5px 14px;
+    border: 2px solid #131C35 !important;
+    border-radius: 4px;
+}
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:focus,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:focus,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:focus,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:focus {
+        background-color: rgba(19, 28, 53, 0.08) !important;
+    }
+
+/* personalization - fixed-image-top */
+#myaccountLanding .personalization-slider-container.responsive .personalization-tile-container.personalization-revamped.personalization-support.personalization-fixed-image-top.personalization-tile-container.personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-tile-image-container {
+    border-radius: 16px;
+}
+
+#myaccountLanding .personalization-slider-container.responsive .slick-slide:first-child:nth-last-child(1) .personalization-tile-container.personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-tile-content-container {
+    padding: 24px 16px;
+}
+
+/* personalization ctas - primary cta - fixed-image-top */
+#myaccountLanding .personalization-slider-container.responsive .slick-slide .personalization-tile-container.personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-tile-content-container .personalization-primary-cta,
+#myaccountLanding.personalization-slider-container:not(.responsive) .slick-slide .personalization-tile-container.personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-tile-content-container .personalization-primary-cta {
+    font-weight: normal;
+    background-color: transparent !important;
+    padding: 5px 14px;
+    border: 2px solid #131C35;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #131C35 !important;
+}
+
+    #myaccountLanding .personalization-slider-container.responsive .slick-slide .personalization-tile-container.personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-tile-content-container .personalization-primary-cta:hover,
+    #myaccountLanding.personalization-slider-container:not(.responsive) .slick-slide .personalization-tile-container.personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-tile-content-container .personalization-primary-cta:hover,
+    #myaccountLanding .personalization-slider-container.responsive .slick-slide .personalization-tile-container.personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-tile-content-container .personalization-primary-cta:focus,
+    #myaccountLanding.personalization-slider-container:not(.responsive) .slick-slide .personalization-tile-container.personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-tile-content-container .personalization-primary-cta:focus {
+        background-color: rgba(19, 28, 53, 0.08) !important;
+    }
+/* END DAP - LOCATION MIDDLE (Offers and Member Benefits)*/
+
+/* START DAP - VIRGIN PLUS WITH PURPOSE */
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .personalization-slider-container .personalization-tile-container {
+    background-color: #FFE1E3 !important;
+}
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .personalization-slider-container .personalization-tile-container .personalization-tile-image-container {
+        border-radius: 16px;
+    }
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .personalization-slider-container .personalization-tile-container .personalization-tile-content-container {
+        padding: 24px 16px;
+    }
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .personalization-slider-container .slick-slide .personalization-revamped.personalization-support .personalization-title {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .personalization-slider-container .slick-slide .personalization-revamped.personalization-support .personalization-title {
+    margin-bottom: 16px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .personalization-slider-container .slick-slide .personalization-revamped.personalization-support .personalization-description {
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .personalization-slider-container.responsive .personalization-revamped .personalization-description,
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .standalone-slide-container.responsive .personalization-revamped .personalization-description {
+    font-size: 14px;
+    line-height: 135%;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .personalization-slider-container.responsive .personalization-revamped .personalization-secondary-cta {
+    font-size: 14px;
+    line-height: 135%;
+}
+/* END DAP - VIRGIN PLUS WITH PURPOSE */
+
+
+
+/* START DAP - TOP and BOTTOM */
+#myaccountLanding .PersonalizationTilesContainer[data-location="top"] .personalization-slider-container.responsive .personalization-revamped .personalization-tile-content-container,
+#myaccountLanding .PersonalizationTilesContainer[data-location="top"] .standalone-slide-container.responsive .personalization-revamped .personalization-tile-content-container {
+    padding: 16px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-slider-container.responsive .personalization-revamped .personalization-tile-content-container,
+#myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .standalone-slide-container.responsive .personalization-revamped .personalization-tile-content-container {
+    padding: 16px;
+}
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-account {
+    display: flex;
+    flex-direction: column;
+}
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-account br {
+        display: none;
+    }
+
+        #myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-account br ~ small {
+            margin-top: 3px;
+        }
+/* END DAP - TOP and BOTTOM */
+
+/* DAP - FOCUS */
+#myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:focus::before,
+#myaccountLanding .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped .personalization-primary-cta:focus::before,
+#myaccountLanding .personalization-slider-container .slick-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-primary-cta:focus::before {
+    outline: 2px solid #4E4AE4 !important;
+    outline-offset: 3px !important;
+    box-shadow: none !important;
+    height: calc(100% + 4px) !important;
+    width: calc(100% + 4px) !important;
+    top: -2px !important;
+    left: -2px !important;
+    border-radius: 4px;
+}
+
+#myaccountLanding .personalization-slider-container.responsive .personalization-revamped .personalization-secondary-cta:focus::before,
+#myaccountLanding .personalization-slider-container .slick-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta:focus::before,
+#myaccountLanding .personalization-slider-container.personalization-slider-container.personalization-slider-container .personalization-tile-content-container a:focus::before {
+    outline-offset: 2px !important;
+    outline: 1px solid #4E4AE4 !important;
+    border-radius: 1px;
+    box-shadow: none !important;
+    height: calc(100% + 1px);
+    width: 100%;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+}
+
+#myaccountLanding .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container .personalization-tile-cta-container a:not(.btn):focus {
+    box-shadow: none !important;
+}
+
+    #myaccountLanding .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container .personalization-tile-cta-container a:not(.btn):focus:before {
+        content: '' !important;
+        outline: 2px solid #4E4AE4 !important;
+        outline-offset: 3px !important;
+        box-shadow: none !important;
+        height: calc(100% + 4px) !important;
+        width: calc(100% + 4px) !important;
+        top: -2px !important;
+        left: -2px !important;
+        border-radius: 4px;
+    }
+
+#myaccountLanding .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container .personalization-details-link:focus {
+    outline-offset: 2px;
+    outline: 1px solid #4E4AE4 !important;
+    box-shadow: none !important;
+    border-radius: 1px;
+    text-decoration: underline;
+    padding: 0;
+}
+/* END DAP - FOCUS */
+
+.radio-boxed-account:not(.checked-border) {
+    border-radius: 4px;
+    background: #F3F2F0;
+}
+
+.radio-boxed-account.checked-border:not(.checkbox-container)::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #4E4AE4;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    top: 0;
+    left: 0;
+}
+
+.radio-boxed-account.radio-container.graphical_ctrl_container .graphical_ctrl input[type="radio"]:focus ~ .ctrl_element {
+    outline: none !important;
+}
+
+.radio-boxed-account.graphical_ctrl_container.focused-element {
+    outline: 2px solid #4E4AE4 !important;
+}
+
+.radio-boxed-account .graphical_ctrl .ctrl_element {
+    border-radius: 50%;
+    border: 1px solid #858A99;
+    background: #fff;
+}
+
+/* DAP MODAL */
+#myaccountLanding .personalization-modal-container {
+    display: inline-flex !important;
+}
+
+#myaccountLanding .personalization-revamped-modal .modal-dialog.personalization-modal-container {
+    box-shadow: none;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-content {
+    background: #fff !important;
+    border-radius: 16px 16px 0 0;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+#myaccountLanding .personalization-revamped-modal .modal-dialog.personalization-modal-container .modal-header.border-radius-10-top {
+    border-radius: 16px 16px 0 0;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-header > div:not(.personalization-modal-img-container):not(.personalization-modal-bg-img-container) {
+    margin-bottom: 32px !important;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-account,
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-account small,
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-title,
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .category,
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .identifier {
+    color: #131C35 !important;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    font-family: 'Poppins-SemiBold',Helvetica,Arial,sans-serif;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-account,
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .category {
+    font-family: 'Poppins-SemiBold',Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-account small,
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .identifier {
+        display: block;
+        padding-top: 2px;
+        font-weight: 400;
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    }
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-title,
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container [id*="personalization-modal-label"] {
+    font-size: 20px !important;
+    font-weight: 600;
+    line-height: 22px !important;
+    letter-spacing: normal;
+    font-family: 'Poppins-SemiBold', Helvetica, Arial, sans-serif;
+    text-transform: none;
+    color: #131C35 !important;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-title {
+    text-align: left;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-description,
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-description .personalization-accordion-content,
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-description .personalization-accordion-content small,
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-description font {
+    font-size: 14px;
+    line-height: 135%;
+    font-weight: 400;
+    color: #131C35 !important;
+    letter-spacing: normal;
+    margin-top: 0;
+}
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-description.personalization-description-legal-disclaimer {
+        text-align: left;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-description:not(.personalization-description-legal-disclaimer) {
+        margin-bottom: 16px;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-description p {
+        margin-bottom: 16px;
+        letter-spacing: inherit;
+    }
+
+        #myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-description p:empty {
+            margin-bottom: 0;
+        }
+
+#myaccountLanding .personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .personalization-modal-description font {
+    color: #131C35;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-description.personalization-description-legal-disclaimer p {
+    margin-bottom: 16px;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-description p:last-of-type {
+    margin-bottom: 16px;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-account,
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .margin-14-bottom {
+    margin-bottom: 16px !important;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-account {
+    text-align: left;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body a.btn.btn-default,
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn {
+    font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif;
+    background: #E10A0A !important;
+    color: #ffffff;
+    padding: 13px 30px !important;
+    border-radius: 4px;
+    border: 0 !important;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body a.btn.btn-default:focus,
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body a.btn.btn-default:hover,
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover {
+        background: #A40000 !important;
+    }
+
+        #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body a.btn.btn-default:focus::before,
+        #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus::before {
+            outline: 2px solid #4E4AE4 !important;
+            outline-offset: 3px;
+            box-shadow: none !important;
+            height: calc(100% + 4px) !important;
+            width: calc(100% + 4px) !important;
+            top: -2px !important;
+            left: -2px !important;
+            border-radius: 4px;
+        }
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-content-container > div:not(.personalization-modal-img-container) {
+    color: #131C35;
+    padding-left: 24px;
+    margin-top: 0;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+    color: #4E4AE4 !important;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body .personalization-description-legal-disclaimer .personalization-modal-accordion-trigger {
+    margin-bottom: 16px;
+    font-weight: 600;
+    text-underline-offset: 4px;
+}
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover {
+    color: #2724A3 !important;
+}
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus:before {
+        display: none;
+    }
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus {
+    outline-offset: 2px;
+    outline: 1px solid #4E4AE4 !important;
+    border-radius: 1px;
+}
+
+#myaccountLanding .personalization-modal:not(.personalization-revamped-modal) .modal-halfview-xs .modal-header .close .icon-close-thin {
+    font-size: 24px;
+    line-height: 1;
+    display: flex;
+}
+
+    #myaccountLanding .personalization-modal:not(.personalization-revamped-modal) .modal-halfview-xs .modal-header .close .icon-close-thin:before {
+        content: "\e915";
+        font-family: 'vrf-icons';
+    }
+
+#myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-header .close {
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+}
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-header .close span,
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-header .personalization-modal-close span {
+        background: #fff !important;
+        color: #131c35 !important;
+        border: 0 !important;
+        font-size: 12px;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-header .close:focus,
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-header .personalization-modal-close:focus {
+        border: 0 !important
+    }
+
+        #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-header .close:focus span:after {
+            content: " ";
+            outline-offset: 4px !important;
+            outline: 2px solid #4E4AE4 !important;
+            box-shadow: none !important;
+            height: 100% !important;
+            width: 100% !important;
+            position: absolute !important;
+            top: 0px !important;
+            left: 0px !important;
+            border-radius: 50%;
+        }
+
+#myaccountLanding .dap-modal {
+    box-shadow: 0px 8px 20px 0px rgba(19, 28, 53, 0.20);
+    border-radius: 16px !important;
+}
+
+    #myaccountLanding .dap-modal.modal .modal-dialog {
+        border: none;
+        max-width: 384px;
+    }
+
+    #myaccountLanding .dap-modal.dap-modal.dap-modal .modal-content {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 16px !important;
+    }
+
+    #myaccountLanding .dap-modal.dap-modal.dap-modal .modal-header {
+        background: none;
+        padding: 40px 32px 0 !important;
+    }
+
+    #myaccountLanding .dap-modal.modal .modal-header .close {
+        top: 16px;
+        right: 16px;
+    }
+
+    #myaccountLanding .dap-modal.dap-modal .modal-header .dap-modal-header {
+        font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        line-height: 28px;
+        text-transform: none;
+        margin-bottom: 12px;
+        color: #131C35;
+    }
+
+    #myaccountLanding .dap-modal.dap-modal .modal-header .close {
+        display: flex;
+    }
+
+        #myaccountLanding .dap-modal.dap-modal .modal-header .close .icon.icon-close,
+        #myaccountLanding .dap-modal.dap-modal .modal-header .close .icon-dap.icon-x {
+            color: #131C35;
+            font-weight: normal;
+            font-size: 16px;
+            font-family: 'virgin-personalization-icons' !important;
+        }
+
+            #myaccountLanding .dap-modal.dap-modal .modal-header .close .icon.icon-close:before {
+                content: "\e904";
+                transform: rotate(45deg);
+                display: inline-flex;
+            }
+
+
+        #myaccountLanding .dap-modal.dap-modal .modal-header .close:focus:after {
+            content: " ";
+            outline-offset: 2px !important;
+            outline: 1px solid #4E4AE4 !important;
+            border-radius: 1px;
+            box-shadow: none !important;
+            height: calc(100% + 1px) !important;
+            width: 100% !important;
+            position: absolute !important;
+            top: -1px !important;
+            left: 0px !important;
+        }
+
+    #myaccountLanding .dap-modal.dap-modal .modal-header .dap-modal-desc {
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 135%;
+        color: #131C35;
+    }
+
+    #myaccountLanding .dap-modal.dap-modal.dap-modal .modal-body {
+        padding: 24px 32px 6px;
+    }
+
+    #myaccountLanding .dap-modal.modal .modal-body::-webkit-scrollbar-thumb {
+        box-shadow: inset 0 0 10px 10px #E10A0A;
+        border: 10px solid transparent;
+        border-radius: 100px;
+    }
+
+    #myaccountLanding .dap-modal.modal.dap-modal.modal .graphical_ctrl {
+        margin-bottom: 15px;
+        padding-left: 36px;
+        padding-bottom: 0px;
+        min-height: 24px;
+        display: flex;
+        align-items: center;
+    }
+
+        #myaccountLanding .dap-modal.modal.dap-modal.modal .graphical_ctrl:last-child {
+            margin-bottom: 0px;
+        }
+
+        #myaccountLanding .dap-modal.modal.dap-modal.modal .graphical_ctrl input:checked + * {
+            font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif;
+            font-weight: 400;
+        }
+
+        #myaccountLanding .dap-modal.modal.dap-modal.modal .graphical_ctrl .dap-cmb-label {
+            color: #131C35;
+            padding-top: 0px;
+        }
+
+        #myaccountLanding .dap-modal.modal.dap-modal.modal .graphical_ctrl .ctrl_element {
+            border: 1px solid #858A99;
+            box-shadow: none;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        #myaccountLanding .dap-modal.modal.dap-modal.modal .graphical_ctrl label input:checked ~ .ctrl_element {
+            background: #4E4AE4;
+            border: 1px solid #4E4AE4;
+        }
+
+    #myaccountLanding .dap-modal.modal .graphical_ctrl label input:focus ~ .ctrl_element:before {
+        content: " ";
+        outline: 2px solid #4E4AE4 !important;
+        outline-offset: 2px !important;
+        box-shadow: none !important;
+        height: calc(100% + 4px) !important;
+        width: calc(100% + 4px) !important;
+        top: -2px !important;
+        left: -2px !important;
+        border-radius: 4px;
+    }
+
+    #myaccountLanding .dap-modal.dap-modal.dap-modal.dap-modal.modal .modal-footer {
+        font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif;
+        padding: 26px 32px 16px;
+        justify-content: flex-start;
+    }
+
+    #myaccountLanding .dap-modal.modal .btn-primary {
+        color: #fff !important;
+        background-color: #E10A0A;
+        border: none;
+        margin: 0 24px 16px 0;
+        padding: 13px 30px;
+        border-radius: 4px;
+    }
+
+
+        #myaccountLanding .dap-modal.modal .btn-primary:focus:after {
+            content: " ";
+            outline: 2px solid #4E4AE4 !important;
+            outline-offset: 3px !important;
+            box-shadow: none !important;
+            height: calc(100% + 4px) !important;
+            width: calc(100% + 4px) !important;
+            top: -2px !important;
+            left: -2px !important;
+            border-radius: 4px;
+        }
+
+    #myaccountLanding .dap-modal.modal .modal-footer a:not(.btn) {
+        color: #4E4AE4;
+        font-size: 14px;
+        line-height: 135%;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+        #myaccountLanding .dap-modal.modal .modal-footer a:not(.btn):focus:after {
+            content: " ";
+            outline-offset: 2px !important;
+            outline: 1px solid #4E4AE4 !important;
+            border-radius: 1px;
+            box-shadow: none !important;
+            height: calc(100% + 1px) !important;
+            width: 100% !important;
+            position: absolute !important;
+            top: -1px !important;
+            left: 0px !important;
+        }
+/* END DAP MODAL */
+/* Hot Content */
+.myaccount-slider-container img {
+    width: 100%;
+}
+
+.myaccount-slider-container a {
+    text-decoration: none;
+}
+
+.myaccount-slider-container .movie-poster {
+    border-radius: 15px 15px 0 0;
+}
+
+.myaccount-slider-container .poster-detail {
+    border-radius: 0 0 15px 15px;
+}
+
+.splide-container {
+    position: relative;
+}
+
+.custom-controls {
+    flex-shrink: 0;
+    padding-left: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 0;
+}
+
+.splide__arrow:focus-visible,
+.splide__pagination__page :focus-visible {
+    outline-offset: none;
+    outline: none;
+}
+
+.splide__arrow:focus,
+.splide__pagination__page:focus {
+    outline-offset: 3px !important;
+    outline: 1px solid #4E4AE4 !important;
+}
+
+.myaccount-slider-container a:focus,
+.myaccount-slider-container a:active {
+    outline-offset: 4px;
+    outline: 1px solid #4E4AE4;
+    border-radius: 16px;
+}
+
+.splide:not(.is-overflow) .splide__arrow {
+    display: none;
+}
+
+/* Hot Content */
+
+/* START - Help is on the Way*/
+.help-footer .PersonalizationTilesContainer.pers-top-right-controls .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-controls {
+    position: static;
+    transform: none;
+    margin-top: 0;
+}
+
+    .help-footer .PersonalizationTilesContainer.pers-top-right-controls .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-controls > * {
+        margin-top: 0px;
+        margin-bottom: 16px;
+        margin-right: 16px;
+    }
+
+#myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-slider-container.slick-initialized .slick-slide,
+#myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-slider-container:not(.slick-initialized) > div {
+    margin-right: 16px;
+}
+/* END - Help is on the Way*/
+
+
+.top-container .PersonalizationTilesContainer.pers-top-right-controls .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-controls,
+.myaccount-landing-purpose .PersonalizationTilesContainer.pers-top-right-controls .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-controls {
+    top: -24px;
+}
+
+/* START - Custom helper class*/
+.custom-flex-1 {
+    flex: 1;
+}
+
+.custom-width-48 {
+    width: 48px;
+}
+
+.custom-max-w-175 {
+    max-width: 175px;
+}
+
+.custom-max-w-626 {
+    max-width: 626px;
+}
+
+.custom-max-w-796 {
+    max-width: 796px;
+}
+
+.custom-pad-r-22 {
+    padding-right: 22px;
+}
+
+.custom-margin-l-5 {
+    margin-left: 5px;
+}
+
+.dimension-32 {
+    width: 32px;
+    height: 32px;
+}
+/* END - Custom helper class*/
+
+/* START - Cancelled Account */
+.cancelled-account-wrapper a.prev-bill {
+    font-weight: 600;
+}
+/* END - Cancelled Account */
+
+/* START - App Banner*/
+.app-banner a:focus {
+    outline-color: #FFFFFF;
+}
+/* END - App Banner*/
+.custom-first-letter-uppercase:first-letter {
+    text-transform: uppercase;
+}
+
+/* START - TV Modal Channel Lineup and details*/
+.modal-channel-lineup table#channelList td {
+    width: 33.33%;
+}
+
+.modal-channel-detail .channel-img-box {
+    height: 104px;
+    width: 104px;
+    overflow: hidden;
+}
+
+    .modal-channel-detail .channel-img-box img {
+        object-fit: contain;
+    }
+/* END - TV Modal Channel Lineup and details*/
+/* START - loader*/
+.pssp-tv-overview ~ .pssp-loader-entire-page-container .loader-fixed.pssp-loader-fixed {
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.loader-fixed.pssp-loader-fixed .page-loader-msg {
+    margin-left: 0;
+}
+/* END - loader*/
+
+/*START - Slick dots outline*/
+#virginPlusWithPurpose .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:active:before,
+#virginPlusWithPurpose .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:focus:before,
+#virginPlusWithPurpose .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-next:active,
+#virginPlusWithPurpose .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-next:focus,
+#virginPlusWithPurpose .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-prev:active,
+#virginPlusWithPurpose .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-prev:focus,
+#virginPlusWithPurpose .PersonalizationTilesContainer.pers-transparent .personalization-slider-container .slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow:focus,
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:active:before,
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:focus:before,
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-next:active,
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-next:focus,
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-prev:active,
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-prev:focus,
+.top-container .PersonalizationTilesContainer.pers-transparent .personalization-slider-container .slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow:focus,
+.help-footer .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:active:before,
+.help-footer .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:focus:before,
+.help-footer .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-next:active,
+.help-footer .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-next:focus,
+.help-footer .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-prev:active,
+.help-footer .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-prev:focus,
+.help-footer .PersonalizationTilesContainer.pers-transparent .personalization-slider-container .slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow:focus {
+    box-shadow: none !important;
+    outline-offset: 2px;
+    outline: 2px solid #4E4AE4 !important;
+}
+
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:active:before,
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:focus:before,
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-next:active,
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-next:focus,
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-prev:active,
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-prev:focus,
+.top-container .PersonalizationTilesContainer.pers-transparent .personalization-slider-container .slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow.slick-arrow:focus {
+    outline-color: #FFFFFF !important;
+}
+
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:active:before,
+.top-container .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:focus:before,
+.help-footer .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:active:before,
+.help-footer .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:focus:before,
+#virginPlusWithPurpose .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:active:before,
+#virginPlusWithPurpose .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-dots li button:focus:before {
+    outline-offset: 0px;
+}
+/*END - Slick dots outline*/
+
+/* START Bar chart */
+.bar-chart .chart-label {
+    width: 100%;
+    max-width: 56px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+    .bar-chart .chart-label div {
+        min-height: 55px;
+    }
+
+        .bar-chart .chart-label div:last-child {
+            min-height: unset;
+        }
+
+.bar-chart .chart {
+    border-bottom-left-radius: 8px;
+    border-left: 1px solid #858A99;
+    border-bottom: 1px solid #858A99;
+    border-top: 1px dashed #858A99;
+    top: 0;
+    max-height: 320px;
+}
+
+.bar-chart .chart-cols {
+    max-width: 480px;
+}
+
+.bar-chart .tooltip-wrapper {
+    min-width: 16px;
+    max-width: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+    .bar-chart .tooltip-wrapper:focus, .bar-chart .tooltip-wrapper:focus-visible {
+        outline-offset: 4px;
+        outline: 1px solid #4E4AE4;
+        border-radius: 1px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+.bar-chart .row-bg {
+    border-bottom: 1px dashed #858A99;
+}
+
+.bar-chart .tooltip-wrapper:last-child {
+    margin-right: 0;
+}
+
+.bar-chart .tooltip-wrapper:first-child {
+    margin-left: 0;
+}
+
+.bar-chart .month-label-cell {
+    position: absolute;
+    margin-top: 11px;
+    max-width: 22px;
+    transform: translate(-25%,0%);
+}
+/* END Bar chart */
+
+/* Mobile */
+@media (max-width:767.98px) {
+    /*Header and Footer*/
+    .standard-minimal-footer.virgin-footer-links .legal-links ul li:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    .standard-minimal-footer.virgin-footer-links .legal-links ul li:nth-child(3):after {
+        display: none;
+    }
+
+    .standard-minimal-footer.virgin-footer-links .legal-links ul li:nth-child(4) {
+        margin-bottom: 0;
+    }
+
+    .details-image-container {
+        flex: 0 0 100%;
+    }
+
+    .details-content-container {
+        flex: 0 0 100%;
+    }
+
+    .details-image-container .image-content {
+        padding-bottom: 24px;
+        margin-right: 0;
+        margin-top: 0;
+        padding-top: 8px;
+    }
+
+    .modal-height {
+        max-height: 565px;
+    }
+
+    #BrsOptLightbox_Virgin .modal-height {
+        max-height: none;
+    }
+
+    .scroll-bar-modal::-webkit-scrollbar-track {
+        margin-bottom: 24px;
+    }
+
+    .top-container .PersonalizationTilesContainer ~ .top-container-bottom-spacer {
+        margin-bottom: 15px;
+    }
+
+    .top-container .PersonalizationTilesContainer ~ .top-container-full-bg {
+        height: calc(100% + 15px) !important;
+    }
+
+    /*Start [M] hot content splide*/
+    .tv-slider-container > .tv-slider-title-container {
+        max-width: calc(100% - 145px);
+    }
+
+    .tv-splide-content-fallback {
+        display: inline-block;
+        padding: 16px 4px 0;
+    }
+
+    .splide-hot-content .splide__slide {
+        width: calc(100% - 8px) !important;
+    }
+    /*End [M] hot content splide*/
+
+    /*START- NBA (Exclusive Offers) styles*/
+
+    .nba-offers > div {
+        padding: 16px 16px 32px 16px;
+        border-radius: 16px;
+        border: 1px solid #CDCFD5;
+    }
+
+    .availability-for-wrapper > div.copy-small:first-child,
+    .availability-for-wrapper > div.copy-small:nth-child(5) {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .icon-star-icon.icon-vrf {
+        margin-bottom: 12px;
+    }
+
+    .recommendation-item > div:nth-child(2) a.btn {
+        margin-top: 16px;
+    }
+
+    .recommendation-item .col-md-9.col-12 div > div {
+        margin-top: 8px;
+    }
+    /*START- END (Exclusive Offers) styles*/
+    /*START IMG Size for Profile created Modal*/
+    .img-height {
+        height: 48px;
+        width: auto;
+        display: inline-flex;
+        border-radius: 7.768px;
+    }
+    /*END IMG Size for Profile created Modal*/
+
+    /*START- Tooltip/Modal disabeled (MOBILE) -- Place here all the styles for disabled element */
+    .btn.disabled.modal-interactive {
+        pointer-events: auto !important;
+        cursor: default;
+    }
+
+    /*END- Tooltip/Modal disabeled (MOBILE) -- Place here all the styles for disabled element */
+    .recent-order-btn-primary {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 7px 16px;
+    }
+
+    .recent-order-btn-secondary {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 5px 14px;
+    }
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-slider-container.slick-initialized .slick-slide,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-slider-container:not(.slick-initialized) > div {
+        margin-right: 8px;
+    }
+
+    #myaccountLanding .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container {
+        padding-right: 16px;
+    }
+
+    #myaccountLanding .personalization-slider-container .personalization-tile-container:not(.personalization-revamped) .personalization-tile-content-container .personalization-tile-cta-container {
+        text-align: left;
+        margin-bottom: 16px;
+    }
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.responsive .personalization-revamped .personalization-tile-content-container,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .standalone-slide-container.responsive .personalization-revamped .personalization-tile-content-container {
+        min-height: 0;
+    }
+
+    #myaccountLanding .myaccount-internet-overview .standalone-slide-container .standalone-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    #myaccountLanding .myaccount-internet-overview .standalone-slide-container.responsive .personalization-revamped a.link.link-with-icon-right {
+        margin-top: 10px;
+    }
+
+    #myaccountLanding .myaccount-internet-overview .standalone-slide .personalization-tile-container .personalization-tile-content-container .personalization-tile-cta-container a:not(.btn):focus.link.link-with-icon-right {
+        padding: 0 !important;
+    }
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-wrapper.liquid-container {
+        margin-top: 16px;
+    }
+
+    #myaccountLanding .standalone-slide-container.responsive .personalization-revamped .personalization-tile-content-container {
+        min-height: initial;
+    }
+
+    #myaccountLanding .standalone-slide-container.responsive .personalization-tile-container.personalization-template-a .personalization-tile-image-container {
+        display: flex;
+        margin-right: 16px;
+        box-shadow: none;
+    }
+
+        #myaccountLanding .standalone-slide-container.responsive .personalization-tile-container.personalization-template-a .personalization-tile-image-container > img {
+            position: unset;
+            transform: none;
+            width: 100%;
+        }
+
+    /* DAP - Location = "middle" */
+    #myaccountLanding .myaccount-internet-overview .PersonalizationTilesContainer[data-location="middle"] .personalization-wrapper.liquid-container {
+        margin-top: 64px;
+    }
+    /* END DAP - Location = "middle" */
+
+    /* DAP MODAL */
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body {
+        background: #fff !important;
+        border-radius: 0;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .modal-dialog.personalization-modal-container .modal-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-content-container {
+        padding-top: 32px;
+        padding-bottom: 24px;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-header .personalization-modal-img-container,
+    #myaccountLanding .personalization-revamped-modal.personalization-modal-template-b .personalization-modal-container .modal-header .personalization-modal-bg-img-container {
+        border-radius: 16px;
+    }
+    /* END DAP MODAL */
+
+    /* Hot Content */
+    .myaccount-slider-container .custom-controls .splide__arrow {
+        display: none;
+    }
+
+    .myaccount-slider-container .custom-controls .splide__pagination {
+        position: static;
+        padding: 0;
+        display: inline-flex;
+    }
+
+        .myaccount-slider-container .custom-controls .splide__pagination > li {
+            display: inline-flex;
+        }
+
+            .myaccount-slider-container .custom-controls .splide__pagination > li:not(:last-of-type) {
+                margin-right: 10px;
+            }
+
+    .myaccount-slider-container .custom-controls .splide__pagination__page {
+        background: transparent;
+        border: 1px solid #4E4AE4;
+        width: 8px;
+        height: 8px;
+        opacity: 1;
+        margin: 0;
+    }
+
+        .myaccount-slider-container .custom-controls .splide__pagination__page.is-active {
+            background: #4E4AE4;
+            transform: scale(1);
+        }
+
+    .myaccount-landing .splide__track {
+        overflow: unset;
+        margin: 0 -4px;
+    }
+
+    /* Hot Content */
+
+    .radio-card-group > div:nth-last-child(-n+1) {
+        margin-bottom: 0;
+    }
+
+    .bills-pay-date,
+    .bills-accordion-item.expanded .bills-pay-date .copy-medium-bold {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .bills-accordion-item-inner {
+        width: 100%;
+    }
+
+    .bills-accordion-item-heading {
+        min-width: 140px;
+    }
+
+    #myaccountLanding .dap-modal.modal .modal-dialog {
+        max-width: 100%;
+    }
+
+    #myaccountLanding .dap-modal.dap-modal.dap-modal {
+        border-radius: 16px 16px 0 0 !important;
+    }
+
+        #myaccountLanding .dap-modal.dap-modal.dap-modal .modal-content {
+            border-radius: 16px 16px 0 0 !important;
+        }
+
+        #myaccountLanding .dap-modal.dap-modal.dap-modal .modal-header {
+            padding: 36px 24px 0 !important;
+        }
+
+    #myaccountLanding .dap-modal.modal .modal-header .close {
+        top: 12px;
+        right: 12px;
+    }
+
+    #myaccountLanding .dap-modal.dap-modal .modal-header .dap-modal-header {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 12px;
+    }
+
+    #myaccountLanding .dap-modal.dap-modal.dap-modal .modal-body {
+        padding: 24px 24px 6px;
+    }
+
+    #myaccountLanding .dap-modal.dap-modal.dap-modal.dap-modal.modal .modal-footer {
+        padding: 26px 24px 16px;
+    }
+
+    /* My Usage Bar chart */
+    .bar-chart .chart-label {
+        padding-right: 13px;
+    }
+    /*END My Usage Bar chart */
+}
+
+/* Tablet */
+@media (min-width:768px) {
+    /*Header and Footer*/
+    .standard-minimal-footer.virgin-footer-links .footer-links {
+        display: flex;
+    }
+
+    .standard-minimal-footer.virgin-footer-links .legal-links ul li:not(:last-child):after {
+        content: '';
+        display: inline-block;
+        height: 12px;
+        margin: 0 12px;
+    }
+    /*Header and Footer*/
+    .d-sm-force-none {
+        display: none !important;
+    }
+
+    .modal-height {
+        max-height: 266px;
+    }
+
+    .scroll-bar-modal::-webkit-scrollbar-track {
+        margin-bottom: 32px;
+    }
+
+    /*Start [T] splide Slider*/
+    .tv-splide-content-fallback {
+        display: inline-block;
+        padding: 24px 7.5px 0;
+    }
+
+    .myaccount-slider-container.splide .splide__list .splide__slide:only-child {
+        width: calc(100%) !important;
+    }
+    /*End [T] splide Slider*/
+
+    /* START- NBA (Exclusive Offers) styles */
+    .recommendation-item {
+        padding-top: 0;
+    }
+    /* END - NBA (Exclusive Offers) styles */
+
+    /*START Img Size for Profile Created Modal*/
+    .img-height {
+        height: 92.69px;
+        width: auto;
+    }
+    /*END Img Size for Profile Created Modal*/
+
+    /* TOASTER MODAL */
+
+    .toaster-modal .right-md-30 {
+        right: 30px;
+    }
+
+    .toaster-modal .modal-dialog {
+        max-width: 304px;
+    }
+
+    .toaster-modal .pad-x-md-0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* END TOASTER MODAL */
+
+    /* START - Personalization */
+    #myaccountLanding .PersonalizationTilesContainer.pers-vertical.pers-vertical .personalization-slider-container.personalization-slider-container > div.slick-slide-wrapper-active + div.slick-slide-wrapper-active {
+        margin-top: 24px;
+    }
+
+    /* standalone-slide */
+
+    #myaccountLanding .standalone-slide-container.responsive .standalone-slide:first-child:nth-last-child(1) .personalization-tile-container.personalization-revamped.personalization-template-a.personalization-img-first .personalization-tile-content-container {
+        padding: 32px;
+        padding-left: 24px;
+    }
+
+    /* DAP - Location = "top" */
+    #myaccountLanding .PersonalizationTilesContainer[data-location=top] .personalization-wrapper {
+        margin-top: 24px;
+    }
+
+    /* DAP - Location = "SERVICES" */
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.responsive .slick-slide:first-child:nth-last-child(1) .personalization-tile-container.personalization-revamped .personalization-tile-content-container {
+        padding: 32px 32px 32px 24px;
+        min-width: 0;
+    }
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container .slick-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .standalone-slide-container .standalone-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta {
+        font-size: 14px;
+        line-height: 135%;
+    }
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta {
+        color: #131C35 !important;
+        background-color: transparent !important;
+        padding: 5px 14px;
+        border: 2px solid #131C35 !important;
+        text-align: center;
+    }
+
+        #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:after,
+        #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:after {
+            content: '';
+        }
+
+        #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover,
+        #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover,
+        #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:focus,
+        #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:focus {
+            background-color: rgba(19, 28, 53, 0.08) !important;
+        }
+
+        #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover,
+        #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover {
+            color: #131C35 !important;
+            text-decoration: none;
+        }
+
+    /* DAP - Location = "middle" */
+    #myaccountLanding .PersonalizationTilesContainer.pers-narrow[data-location="middle"] .personalization-slider-container.responsive .slick-slide:first-child:nth-last-child(1) .personalization-tile-container.personalization-revamped.personalization-template-a.personalization-img-first .personalization-tile-content-container {
+        padding: 32px 32px 32px 24px;
+    }
+
+    #myaccountLanding .personalization-slider-container.responsive .slick-slide:first-child:nth-last-child(1) .personalization-tile-container.personalization-revamped.personalization-support.personalization-fixed-image-top .personalization-tile-content-container {
+        padding: 32px !important;
+    }
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container.responsive .slick-slide .personalization-revamped .personalization-tile-content-container,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .standalone-slide-container.responsive .standalone-slide .personalization-revamped .personalization-tile-content-container,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container.responsive .slick-slide .personalization-revamped .personalization-tile-content-container,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .standalone-slide-container.responsive .standalone-slide .personalization-revamped .personalization-tile-content-container {
+        padding: 24px;
+    }
+
+    #myaccountLanding .myaccount-internet-overview .standalone-slide-container .standalone-slide .personalization-revamped .personalization-tile-content-container .personalization-tile-details-container .personalization-tertiary-cta {
+        font-size: 14px;
+        line-height: 135%;
+    }
+
+    #myaccountLanding .myaccount-internet-overview .standalone-slide-container.responsive .personalization-revamped .personalization-primary-cta {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #myaccountLanding .myaccount-landing-cross-sell .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container.responsive .personalization-revamped .personalization-title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    /* DAP - Location = "VIRGIN_PLUS_WITH_PURPOSE" */
+    #myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .personalization-slider-container .personalization-tile-container .personalization-tile-content-container {
+        padding: 32px 24px;
+    }
+
+    /* DAP - Location = "top" */
+    #myaccountLanding .PersonalizationTilesContainer[data-location="top"] .personalization-slider-container.responsive .personalization-revamped .personalization-tile-content-container,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="top"] .standalone-slide-container.responsive .personalization-revamped .personalization-tile-content-container {
+        padding: 24px 0 24px 24px;
+    }
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="top"] .personalization-slider-container.responsive .slick-slide:first-child:nth-last-child(n+2) .personalization-tile-container.personalization-revamped.personalization-template-b .personalization-tile-content-container,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="top"] .personalization-slider-container.responsive .slick-slide:first-child:nth-last-child(n+2) ~ .slick-slide .personalization-tile-container.personalization-revamped.personalization-template-b .personalization-tile-content-container {
+        padding-right: 132px;
+    }
+
+    /* DAP - Location = "BOTTOM" */
+    #myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-slider-container.responsive .personalization-revamped .personalization-tile-content-container,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .standalone-slide-container.responsive .personalization-revamped .personalization-tile-content-container {
+        padding-right: 0;
+    }
+
+    #myaccountLanding .personalization-slider-container .slick-slide:only-child .personalization-revamped.personalization-template-b .personalization-tile-image-container:before {
+        background: linear-gradient(90deg, #FFF 44%, rgb(255 255 255 / 70%) 56%, rgba(255,255,255,0) 66%);
+    }
+
+    #myaccountLanding .personalization-slider-container .slick-slide:not(:only-child) .personalization-revamped.personalization-template-b .personalization-tile-image-container:before {
+        background: linear-gradient(90deg, #FFF 42%, rgb(255 255 255 / 70%) 58%, rgba(255,255,255,0) 68%);
+    }
+
+    #myaccountLanding .personalization-revamped-modal.personalization-modal-template-b .personalization-modal-container .modal-header .personalization-modal-img-container:after {
+        content: '';
+        background: linear-gradient(360deg, #ffffff 0%, rgb(255 255 255 / 0%) 100%);
+        display: block;
+        width: 100%;
+        height: 58px;
+        position: absolute;
+        bottom: 0;
+        z-index: 3;
+    }
+    /* END - Personalization */
+
+    /* DAP MODAL */
+    #myaccountLanding .personalization-revamped-modal .modal-dialog.personalization-modal-container {
+        max-width: 900px;
+        padding: 0 16px;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-content {
+        border-radius: 24px;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .modal-dialog.personalization-modal-container .modal-header.border-radius-10-top {
+        border-radius: 24px 24px 0 0;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-header > div:not(.personalization-modal-img-container):not(.personalization-modal-bg-img-container) {
+        padding-left: 32px;
+        padding-top: 32px;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-content-container {
+        padding-bottom: 32px;
+    }
+
+        #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-content-container > div:not(.personalization-modal-img-container) {
+            padding-left: 32px;
+        }
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-header > div:not(.personalization-modal-img-container):not(.personalization-modal-bg-img-container) {
+        margin-bottom: 16px !important;
+        padding-left: 32px;
+        padding-top: 32px;
+        padding-right: 0;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .personalization-modal-title,
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container [id*="personalization-modal-label"] {
+        font-size: 22px !important;
+        line-height: 28px !important;
+    }
+
+    #myaccountLanding .personalization-revamped-modal.personalization-modal-template-b .personalization-modal-container .modal-header .personalization-modal-img-container img {
+        display: none;
+    }
+
+    #myaccountLanding .personalization-revamped-modal.personalization-modal-template-b .personalization-modal-container .modal-header .personalization-modal-img-container:before {
+        background: linear-gradient(90deg, rgba(255,255,255,1) 74%, rgb(255 255 255 / 70%) 78%, rgba(255,255,255,0) 86%);
+        display: block;
+        width: 147%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        content: '';
+        z-index: 2;
+        max-width: 1323px;
+    }
+
+    #myaccountLanding .personalization-slider-container .slick-slide .personalization-revamped.personalization-template-b .personalization-tile-image-container:before {
+        content: '';
+        height: 100%;
+        position: absolute;
+        right: 0;
+    }
+
+    #myaccountLanding .personalization-slider-container .slick-slide:only-child .personalization-revamped.personalization-template-b .personalization-tile-image-container:before {
+        background: linear-gradient(90deg, #fff 48%, rgb(255 255 255 / 70%) 60%, rgba(255,255,255,0) 70%);
+        width: 128%;
+        max-width: 1000px !important;
+    }
+
+    #myaccountLanding .personalization-slider-container .slick-slide:not(:only-child) .personalization-revamped.personalization-template-b .personalization-tile-image-container:before {
+        background: linear-gradient(90deg, #FFF 56%, rgb(255 255 255 / 70%) 68%, rgba(255,255,255,0) 78%);
+        width: 165%;
+        right: -35px;
+    }
+
+    #myaccountLanding .personalization-revamped-modal.personalization-modal-template-b .personalization-modal-container .modal-header .personalization-modal-img-container:after {
+        content: '';
+        background: linear-gradient(360deg, #ffffff 0%, rgb(255 255 255 / 0%) 100%);
+        display: block;
+        width: 100%;
+        height: 58px;
+        position: absolute;
+        bottom: 0;
+        z-index: 3;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .personalization-modal-container .modal-header .close {
+        margin: 24px !important;
+    }
+    /* END DAP MODAL */
+
+    /* DAP TOOLTIP START*/
+
+    #myaccountLanding .personalization-tooltip.personalization-tooltip-shown {
+        display: block !important;
+        opacity: 1 !important;
+    }
+
+    #myaccountLanding .personalization-tooltip.tooltip {
+        position: absolute !important;
+        width: auto;
+        z-index: 1070;
+        display: block;
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: left;
+        text-align: start;
+        text-decoration: none;
+        text-shadow: none;
+        text-transform: none;
+        letter-spacing: normal;
+        word-break: normal;
+        word-spacing: normal;
+        word-wrap: normal;
+        white-space: normal;
+        opacity: 0;
+        line-break: auto;
+    }
+
+        #myaccountLanding .personalization-tooltip.tooltip.top,
+        #myaccountLanding .personalization-tooltip.top {
+            transform: translate(-50%,-100%) !important;
+        }
+
+        #myaccountLanding .personalization-tooltip.tooltip.top {
+            margin-top: -12px !important;
+            padding: 0 5px;
+        }
+
+            #myaccountLanding .personalization-tooltip.tooltip.top .tooltip-arrow {
+                bottom: 0;
+                margin-bottom: -20px;
+                -ms-transform: rotate(-90deg);
+                -webkit-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+            }
+
+            #myaccountLanding .personalization-tooltip.tooltip.bottom .tooltip-arrow,
+            #myaccountLanding .personalization-tooltip.tooltip.top .tooltip-arrow {
+                margin-left: -7px;
+                border-width: 15px 15px 15px 0;
+                border-right-color: #fff;
+                border-top-color: transparent;
+                left: 50%;
+            }
+
+    #myaccountLanding .personalization-tooltip .tooltip-arrow {
+        position: absolute;
+        width: 0;
+        border-color: transparent;
+        border-style: solid;
+        height: 30px;
+    }
+
+    #myaccountLanding .personalization-tooltip .tooltip-inner {
+        max-width: 290px;
+        width: auto;
+        padding: 16px;
+        color: #555;
+        font-size: 14px;
+        line-height: 135%;
+        text-align: left;
+        background-color: #fff;
+        border-color: #CDCFD5;
+        border-radius: 8px;
+        -webkit-box-shadow: 0px 8px 20px 0px rgba(19, 28, 53, 0.20);
+        -moz-box-shadow: 0px 8px 20px 0px rgba(19, 28, 53, 0.20);
+        box-shadow: 0px 8px 20px 0px rgba(19, 28, 53, 0.20);
+    }
+
+    #myaccountLanding .personalization-tooltip.tooltip.top .tooltip-arrow {
+        bottom: 0;
+        margin-bottom: -20px;
+        -ms-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    #myaccountLanding .personalization-tooltip.tooltip.bottom .tooltip-arrow,
+    #myaccountLanding .personalization-tooltip.tooltip.top .tooltip-arrow {
+        margin-left: -7px;
+        border-width: 15px 15px 15px 0;
+        border-right-color: #fff !important;
+        border-top-color: transparent !important;
+        left: 50%;
+    }
+
+    #myaccountLanding .personalization-tooltip .tooltip-arrow {
+        position: absolute;
+        width: 0;
+        border-color: transparent;
+        border-style: solid;
+        height: 30px !important;
+    }
+
+    /* DAP TOOLTIP END*/
+
+    /* Hot Content */
+    .myaccount-slider-container .splide-hot-content {
+        margin-left: -7.5px;
+        margin-right: -7.5px;
+    }
+
+    .myaccount-slider-container .custom-controls .splide__arrow {
+        bottom: auto;
+        font-family: 'myaccount-landing-icons' !important;
+        line-height: 1 !important;
+        border-radius: 50%;
+        border: 2px solid #4E4AE4;
+        height: 40px;
+        width: 40px;
+        background: transparent;
+        position: unset;
+        transform: translateY(0);
+    }
+
+        .myaccount-slider-container .custom-controls .splide__arrow > svg {
+            display: none;
+        }
+
+        .myaccount-slider-container .custom-controls .splide__arrow:after {
+            content: "\e97b" !important;
+            font-size: 24px;
+            color: #4E4AE4;
+            background-color: transparent !important;
+        }
+
+        .myaccount-slider-container .custom-controls .splide__arrow:disabled:after {
+            color: #858A99;
+        }
+
+        .myaccount-slider-container .custom-controls .splide__arrow:not(:disabled) {
+            opacity: 1;
+        }
+
+        .myaccount-slider-container .custom-controls .splide__arrow:disabled {
+            border: 2px solid #858A99;
+        }
+
+        .myaccount-slider-container .custom-controls .splide__arrow.splide__arrow--next:after {
+            background-color: transparent !important;
+        }
+
+        .myaccount-slider-container .custom-controls .splide__arrow.splide__arrow--prev:after {
+            transform: rotate(180deg) !important;
+        }
+
+    .myaccount-slider-container .custom-controls .splide__pagination {
+        position: static;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .myaccount-slider-container .custom-controls .splide__pagination__page {
+        background: transparent;
+        border: 1px solid #4E4AE4;
+        width: 8px;
+        height: 8px;
+        opacity: 1;
+        margin: 0;
+        display: inline-flex;
+    }
+
+        .myaccount-slider-container .custom-controls .splide__pagination__page.is-active {
+            background: #4E4AE4;
+            transform: scale(1);
+        }
+
+    .myaccount-slider-container .custom-controls .splide__pagination li:last-child {
+        margin-right: 0;
+    }
+
+    .myaccount-slider-container .custom-controls .splide__pagination li {
+        margin-right: 10px;
+        display: inline-flex;
+    }
+
+    .myaccount-slider-container .splide__track {
+        margin-bottom: -7.5px;
+        padding-bottom: 7.5px;
+    }
+    /* Hot Content */
+
+    .radio-card-group > div:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+
+    .bills-notify-payment-on-mobile {
+        display: none;
+    }
+
+    .bills-pay-date {
+        max-width: 165px;
+    }
+
+    .bills-accordion-item:not(.expanded) .bills-accordion-item-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    /* START - Help is on the Way*/
+    .help-footer .PersonalizationTilesContainer.pers-top-right-controls .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-controls > * {
+        margin-right: 0px;
+    }
+    /* END - Help is on the Way*/
+
+    /* START Bar chart */
+    .bar-chart .tooltip-wrapper {
+        min-width: 24px;
+        max-width: 24px;
+    }
+
+    .bar-chart .chart-label {
+        max-width: 87px;
+        font-size: 14px;
+        line-height: 1;
+    }
+
+        .bar-chart .chart-label div {
+            min-height: 53px;
+        }
+
+    .bar-chart .month-label-cell {
+        position: absolute;
+        margin-top: 16px;
+        min-width: 70px;
+        transform: translate(-34%,0%);
+    }
+    /* END Bar chart */
+
+    .custom-width-md-64 {
+        width: 64px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991.98px) {
+    /* TOP CONTAINER PERSONALIZATION */
+    #myaccountLanding .PersonalizationTilesContainer[data-location="top"] .personalization-wrapper.liquid-container {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="top"].pers-top-right-controls .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-controls {
+        padding-right: 15px;
+    }
+    /* END TOP CONTAINER PERSONALIZATION */
+
+    /* DAP MODAL */
+    #myaccountLanding .personalization-revamped-modal.personalization-modal-template-b .personalization-modal-container .modal-header .personalization-modal-img-container:before {
+        background: linear-gradient(90deg, rgba(255,255,255,1) 55%, rgb(255 255 255 / 70%) 67%, rgba(255,255,255,0) 79%);
+        width: 113%;
+    }
+    /* END DAP MODAL */
+}
+
+/* Desktop */
+@media (min-width:992px) {
+    .top-container .top-heading-container > * {
+        max-width: calc(100% - 159px); /* 44px for 3 slick dots + 15px horizontal spacing + 100px for prev and next buttons */
+    }
+
+    .myaccount-landing-my-services .sidelinks-tools-left-container:first-of-type .tools-n-resources,
+    .myaccount-landing-my-services .sidelinks-links-left-container:first-of-type .side-links {
+        margin-top: 0;
+    }
+
+    /*Start [D] Slick Slider*/
+    .tv-splide-content-fallback {
+        display: inline-block;
+    }
+    /*End [D] Slick Slider*/
+
+    .connector-areas {
+        display: flex !important;
+        align-items: center;
+    }
+
+        .connector-areas .connector-area > a {
+            display: flex;
+            align-items: center;
+        }
+
+    .custom-min-w-lg-304 {
+        min-width: 304px;
+    }
+
+    .custom-min-w-lg-552 {
+        min-width: 552px;
+    }
+
+    .custom-min-w-lg-738 {
+        min-width: 738px;
+    }
+
+    .custom-max-w-lg-222 {
+        max-width: 222px;
+    }
+
+    .custom-max-w-lg-304 {
+        max-width: 304px;
+    }
+
+    .custom-max-w-lg-384 {
+        max-width: 384px;
+    }
+
+    .custom-max-w-lg-552 {
+        max-width: 552px;
+    }
+
+    .custom-min-w-lg-632 {
+        min-width: 632px;
+    }
+
+    .custom-pad-t-lg-100 {
+        padding-top: 100px;
+    }
+
+    .custom-margin-t-lg-100 {
+        margin-top: 100px;
+    }
+
+    .custom-margin-b-lg-100 {
+        margin-bottom: 100px;
+    }
+
+    #myaccountLanding .personalization-slider-container .slick-slide:not(:only-child) .personalization-revamped.personalization-template-b .personalization-tile-image-container:before {
+        background: linear-gradient(90deg, #fff 60%, rgb(255 255 255 / 70%) 70%, rgba(255,255,255,0) 80%);
+    }
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .personalization-slider-container.responsive .personalization-revamped .personalization-title,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="middle"] .standalone-slide-container.responsive .personalization-revamped .personalization-title,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .personalization-slider-container.responsive .personalization-revamped .personalization-title,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="memberbenefits"] .standalone-slide-container.responsive .personalization-revamped .personalization-title,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="virginpluswithpurpose"] .personalization-slider-container .slick-slide .personalization-revamped.personalization-support .personalization-title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    /* DAP - Location = "top" */
+    #myaccountLanding .PersonalizationTilesContainer[data-location=top] .personalization-wrapper {
+        margin-top: 32px;
+    }
+
+    /* DAP MODAL */
+    #myaccountLanding .personalization-revamped-modal.personalization-modal-template-b .personalization-modal-container .modal-header > div:not(.personalization-modal-img-container):not(.personalization-modal-bg-img-container) {
+        max-width: 423px;
+    }
+
+    #myaccountLanding .personalization-revamped-modal.personalization-modal-template-b .personalization-modal-container .modal-header .personalization-modal-img-container:before {
+        background: linear-gradient(90deg, rgba(255,255,255,1) 58%, rgb(255 255 255 / 70%) 65%, rgba(255,255,255,0) 74%);
+        width: 133%;
+    }
+
+    #myaccountLanding .personalization-revamped-modal .modal-dialog.personalization-modal-container {
+        padding: 0;
+    }
+    /* END DAP MODAL */
+
+    /* START - Help is on the Way*/
+    .help-footer .PersonalizationTilesContainer.pers-top-right-controls .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-controls > * {
+        margin-top: 0px;
+    }
+    /* END - Help is on the Way*/
+
+    /*START Personalizatiion*/
+    #myaccountLanding .pers-narrow[data-location="virginpluswithpurpose"] .personalization-slider-container.responsive .slick-slide .personalization-revamped,
+    #myaccountLanding .pers-narrow[data-location="virginpluswithpurpose"] .personalization-slider-container.responsive:not(.slick-initialized) > div .personalization-revamped {
+        min-width: 345px;
+    }
+
+    #myaccountLanding .pers-narrow[data-location="top"] .personalization-slider-container.responsive .slick-slide .personalization-revamped,
+    #myaccountLanding .pers-narrow[data-location="top"] .personalization-slider-container.responsive:not(.slick-initialized) > div .personalization-revamped,
+    #myaccountLanding .pers-narrow[data-location="bottom"] .personalization-slider-container.responsive .slick-slide .personalization-revamped,
+    #myaccountLanding .pers-narrow[data-location="bottom"] .personalization-slider-container.responsive:not(.slick-initialized) > div .personalization-revamped {
+        min-width: 389px;
+    }
+    /*START Personalizatiion*/
+}
+
+@media (min-width: 1400px) {
+    #myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-slider-container.slick-initialized .slick-slide,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-slider-container:not(.slick-initialized) > div {
+        margin-right: 24px;
+    }
+
+    .help-footer .PersonalizationTilesContainer.pers-top-right-controls .personalization-slider-container.personalization-slider-container.personalization-slider-container .slick-controls {
+        margin-right: -14px;
+    }
+
+    .custom-min-w-xxl-282 {
+        min-width: 282px;
+    }
+
+    .custom-min-w-xxl-386 {
+        min-width: 386px;
+    }
+
+    .custom-max-w-xxl-282 {
+        max-width: 282px;
+    }
+
+    .custom-max-w-xxl-386 {
+        max-width: 386px;
+    }
+
+    .custom-min-w-xxl-790 {
+        min-width: 790px;
+    }
+
+    .custom-max-w-xxl-854 {
+        min-width: 854px;
+    }
+
+    .custom-max-w-xxl-282 {
+        max-width: 282px;
+    }
+
+    .custom-spacer-margin-r-xxl-3 {
+        margin-right: 24px;
+    }
+
+    .custom-spacer-pad-t-xxl-0 {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    #myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-slider-container.responsive .personalization-revamped .personalization-tile-content-container,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .standalone-slide-container.responsive .personalization-revamped .personalization-tile-content-container {
+        padding: 24px;
+    }
+
+    #myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .personalization-slider-container.responsive .personalization-revamped .personalization-tile-content-container,
+    #myaccountLanding .PersonalizationTilesContainer[data-location="bottom"] .standalone-slide-container.responsive .personalization-revamped .personalization-tile-content-container {
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+}
+
+.btn-shimmer {
+    background: -moz-linear-gradient(-45deg, #E10A0A 0%, #E10A0A 40%, #ffffff 50%, #E10A0A 60%, #E10A0A 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #E10A0A), color-stop(40%, #E10A0A), color-stop(50%, #ffffff), color-stop(60%, #E10A0A), color-stop(100%, #E10A0A));
+    background: -webkit-linear-gradient(-45deg, #E10A0A 0%, #E10A0A 40%, #ffffff 50%, #E10A0A 60%, #E10A0A 100%);
+    background: -o-linear-gradient(-45deg, #E10A0A 0%, #E10A0A 40%, #ffffff 50%, #E10A0A 60%, #E10A0A 100%);
+    background: -ms-linear-gradient(-45deg, #E10A0A 0%, #E10A0A 40%, #ffffff 50%, #E10A0A 60%, #E10A0A 100%);
+    background: linear-gradient(135deg, #E10A0A 0%, #E10A0A 40%, #ffffff 50%, #E10A0A 60%, #E10A0A 100%);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: 300%;
+    color: transparent !important;
+    animation: btn-shimmer 1s;
+    -webkit-animation: btn-shimmer 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes btn-shimmer {
+    0% {
+        background-position: -600px;
+        background-color: #E10A0A;
+        color: transparent !important;
+        border: 2px solid #E10A0A;
+    }
+
+    100% {
+        background-position: 0px;
+        background-color: #E10A0A;
+        color: transparent !important;
+        border: 2px solid #E10A0A;
+    }
+}
+
+@-webkit-keyframes btn-shimmer {
+    0% {
+        background-position: -600px;
+        background-color: #E10A0A;
+        color: transparent !important;
+        border: 2px solid #E10A0A;
+    }
+
+    100% {
+        background-position: 0px;
+        background-color: #E10A0A;
+        color: transparent !important;
+        border: 2px solid #E10A0A;
+    }
+}
+
+/* TODO: check with core team where to place this */
+@media (min-width: 768px) {
+    /* DAP - Location = "SERVICES" */
+    #myaccountLanding .PersonalizationTilesContainer[data-location="services"] .personalization-wrapper.liquid-container {
+        margin-top: 24px;
+    }
+    /* END DAP - Location = "SERVICES" */
+
+    /* DAP - Location = "middle" */
+    #myaccountLanding .myaccount-internet-overview .PersonalizationTilesContainer[data-location="middle"] .personalization-wrapper.liquid-container {
+        margin-top: 80px;
+    }
+    /* END DAP - Location = "middle" */
+
+    .custom-ph-md-12 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .custom-pad-r-md-30 {
+        padding-right: 30px;
+    }
+
+    /* START Maverick Personalization modal */
+    #myaccountLanding.breakpoint-sd-v2 .personalization-revamped-modal .modal-dialog.personalization-modal-container {
+        top: auto !important;
+        left: auto !important;
+        transform: none !important;
+    }
+    /* END Maverick Personalization modal */
+}
+
+/* TODO: remove this once the style block above has been transferred */
+@media (min-width: 992px) {
+    .spacer-pad-r-lg-6 {
+        padding-right: 48px;
+    }
+}

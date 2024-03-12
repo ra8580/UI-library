@@ -1,0 +1,1865 @@
+/* START Personalization Enhancement - Themes */
+
+/* Default ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped{
+		background: #ffffff !important;
+	}
+	
+		/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped .personalization-title {
+		color: #111111 !important;
+	}
+	
+		/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped .personalization-description {
+		color: rgba(17, 17, 17, 0.85);
+	}
+	
+		/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta{
+		background: #cc0000 !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-primary-cta:hover{
+		background: #cc0000 !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* in order
+		- secondary cta
+		- tertiary cta
+		- support tile primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-tertiary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-support .personalization-primary-cta {
+		color: #016d98 !important;
+	}
+	
+		/* secondary, tertiary, and support tile primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped:not(.personalization-support) .personalization-tertiary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-support .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-support .personalization-primary-cta:hover {
+		color: #016d98 !important;
+	}
+	/* Default ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* BlaWhiTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi{
+		background: #000 !important;
+	}
+	
+		/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi .personalization-title {
+		color: #ffffff !important;
+	}
+	
+		/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi .personalization-description {
+		color: rgba(255, 255, 255, 0.85) !important;
+	}
+	
+		/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi:not(.personalization-support) .personalization-primary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi:not(.personalization-support) .personalization-primary-cta{
+		background: transparent !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi:not(.personalization-support) .personalization-primary-cta:hover{
+		background: transparent !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi:not(.personalization-support) .personalization-tertiary-cta {
+		color: #06a8eb !important;
+	}
+	
+		/* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraWhi:not(.personalization-support) .personalization-tertiary-cta:hover {
+		color: #06a8eb !important;
+	}
+	
+	/* BlaWhiTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* BlaWhiTraRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed{
+		background: #000 !important;
+	}
+	
+		/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed .personalization-title {
+		color: #ffffff !important;
+	}
+	
+		/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed .personalization-description {
+		color: rgba(255, 255, 255, 0.85) !important;
+	}
+	
+		/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed:not(.personalization-support) .personalization-primary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed:not(.personalization-support) .personalization-primary-cta{
+		background: transparent !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed:not(.personalization-support) .personalization-primary-cta:hover{
+		background: transparent !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed:not(.personalization-support) .personalization-tertiary-cta {
+		color: #06a8eb !important;
+	}
+	
+		/* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiTraRed:not(.personalization-support) .personalization-tertiary-cta:hover {
+		color: #06a8eb !important;
+	}
+	
+	/* BlaWhiTraRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* WhiBlaTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi{
+		background: #ffffff !important;
+	}
+	
+		/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi .personalization-title {
+		color: #111111 !important;
+	}
+	
+		/* personalization-account-tag */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi .personalization-account-tag > div {
+		color: #111111 !important;
+		background: #f4f4f4 !important;
+	}
+	
+		/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi .personalization-description {
+		color: rgba(17, 17, 17, 0.85) !important;
+	}
+	
+		/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi:not(.personalization-support) .personalization-primary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi:not(.personalization-support) .personalization-primary-cta{
+		background: transparent !important;
+		color: #0e0e0e !important;
+		border: 2px solid #0e0e0e !important;
+	}
+	
+		/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi:not(.personalization-support) .personalization-primary-cta:hover{
+		background: transparent !important;
+		color: #0e0e0e !important;
+		border: 2px solid #0e0e0e !important;
+	}
+	
+		/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi:not(.personalization-support) .personalization-tertiary-cta {
+		color: #016d98 !important;
+	}
+	
+		/* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraWhi:not(.personalization-support) .personalization-tertiary-cta:hover {
+		color: #016d98 !important;
+	}
+	
+	/* WhiBlaTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* WhiBlaTraRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed{
+		background: #ffffff !important;
+	}
+	
+		/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed .personalization-title {
+		color: #111111 !important;
+	}
+	
+		/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed .personalization-description {
+		color: rgba(17, 17, 17, 0.85) !important;
+	}
+	
+		/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed:not(.personalization-support) .personalization-primary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed:not(.personalization-support) .personalization-primary-cta{
+		background: transparent !important;
+		color: #0e0e0e !important;
+		border: 2px solid #0e0e0e !important;
+	}
+	
+		/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed:not(.personalization-support) .personalization-primary-cta:hover{
+		background: transparent !important;
+		color: #0e0e0e !important;
+		border: 2px solid #0e0e0e !important;
+	}
+	
+		/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed:not(.personalization-support) .personalization-tertiary-cta {
+		color: #016d98 !important;
+	}
+	
+		/* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaTraRed:not(.personalization-support) .personalization-tertiary-cta:hover {
+		color: #016d98 !important;
+	}
+	
+	/* WhiBlaTraRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* BlaWhiBlaWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi{
+		background: #000 !important;
+	}
+	
+		/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi .personalization-title {
+		color: #ffffff !important;
+	}
+	
+		/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi .personalization-description {
+		color: rgba(255, 255, 255, 0.85) !important;
+	}
+	
+		/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi:not(.personalization-support) .personalization-primary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi:not(.personalization-support) .personalization-primary-cta{
+		background: #0e0e0e !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi:not(.personalization-support) .personalization-primary-cta:hover{
+		background: #0e0e0e !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi:not(.personalization-support) .personalization-tertiary-cta {
+		color: #06a8eb !important;
+	}
+	
+		/* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaWhi:not(.personalization-support) .personalization-tertiary-cta:hover {
+		color: #06a8eb !important;
+	}
+	
+	/* BlaWhiBlaWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* BlaWhiBlaRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed{
+		background: #000 !important;
+	}
+	
+		/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed .personalization-title {
+		color: #ffffff !important;
+	}
+	
+		/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed .personalization-description {
+		color: rgba(255, 255, 255, 0.85) !important;
+	}
+	
+		/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed:not(.personalization-support) .personalization-primary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed:not(.personalization-support) .personalization-primary-cta{
+		background: #0e0e0e !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed:not(.personalization-support) .personalization-primary-cta:hover{
+		background: #0e0e0e !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed:not(.personalization-support) .personalization-tertiary-cta {
+		color: #06a8eb !important;
+	}
+	
+		/* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-BlaWhiBlaRed:not(.personalization-support) .personalization-tertiary-cta:hover {
+		color: #06a8eb !important;
+	}
+	
+	/* BlaWhiBlaRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* WhiBlaRedWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi{
+		background: #ffffff !important;
+	}
+	
+		/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi .personalization-title {
+		color: #111111 !important;
+	}
+	
+		/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi .personalization-description {
+		color: rgba(17, 17, 17, 0.85) !important;
+	}
+	
+		/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi:not(.personalization-support) .personalization-primary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi:not(.personalization-support) .personalization-primary-cta{
+		background: #cc0000 !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi:not(.personalization-support) .personalization-primary-cta:hover{
+		background: #cc0000 !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi:not(.personalization-support) .personalization-tertiary-cta {
+		color: #016d98 !important;
+	}
+	
+		/* secondary, tertiary, and support tile primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedWhi:not(.personalization-support) .personalization-tertiary-cta:hover {
+		color: #016d98 !important;
+	}
+	
+	/* WhiBlaRedWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* WhiBlaRedRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed{
+		background: #ffffff !important;
+	}
+	
+		/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed .personalization-title {
+		color: #111111 !important;
+	}
+	
+		/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed .personalization-description {
+		color: rgba(17, 17, 17, 0.85) !important;
+	}
+	
+		/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed:not(.personalization-support) .personalization-primary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed:not(.personalization-support) .personalization-primary-cta{
+		background: #cc0000 !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed:not(.personalization-support) .personalization-primary-cta:hover{
+		background: #cc0000 !important;
+		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+		/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed:not(.personalization-support) .personalization-tertiary-cta {
+		color: #016d98 !important;
+	}
+	
+		/* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaRedRed:not(.personalization-support) .personalization-tertiary-cta:hover {
+		color: #016d98 !important;
+	}
+	
+	/* WhiBlaRedRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	
+	/* Start - support - themes */
+	
+	/* START WhiBlaBlu ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaBlu {
+		background: #ffffff !important;
+	}
+	
+		/* in order
+		- account
+		- title 
+		- description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaBlu .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaBlu .personalization-title,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaBlu .personalization-description {
+		color: #111111 !important;
+	}
+	
+		/* support tile primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaBlu.personalization-support .personalization-primary-cta {
+		color: #016d98 !important;
+	}
+	
+		/* support tile primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaBlu.personalization-support .personalization-primary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-WhiBlaBlu.personalization-support .personalization-primary-cta:focus {
+		color: #016d98 !important;
+	}
+	/* END WhiBlaBlu ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* END - support - themes */
+	
+	/* START GraBlaTraBlu ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu {
+		background: #e9e9e9 !important;
+	}
+	
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu .personalization-description,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu .personalization-description {
+		color: #333333 !important;
+	}
+	
+	/*account*/
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu .personalization-account,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu .personalization-account {
+		color: #111111 !important;
+	}
+	
+	/*account-tag*/
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu .personalization-account-tag,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu .personalization-account-tag {
+		color: #111111 !important;
+	}
+	
+	/*title*/
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu .personalization-title,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu .personalization-title {
+		color: #333333 !important;
+	}
+	
+	/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu .personalization-description,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu .personalization-description {
+		color: rgba(17, 17, 17, 0.85) !important;
+	}
+	
+	/*account-date*/
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu .personalization-date,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu .personalization-date {
+		color: #333333 !important;
+	}
+	
+	/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-primary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-primary-cta {
+		background: transparent !important;
+		color: #086d96 !important;
+		border: none !important;
+	}
+	
+	/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-primary-cta:hover,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-primary-cta:hover {
+		background: transparent !important;
+		color: #086d96 !important;
+		border: none !important;
+	}
+	
+	/* in order
+	- secondary cta
+	- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-tertiary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-tertiary-cta {
+		color: #086d96 !important;
+	}
+	
+		/* secondary and tertiary cta hover and focus */
+		.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-secondary-cta:focus,
+		.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-secondary-cta:hover,
+		.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-tertiary-cta:focus,
+		.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-tertiary-cta:hover,
+		.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-secondary-cta:focus,
+		.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-secondary-cta:hover,
+		.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-tertiary-cta:focus,
+		.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaTraBlu:not(.personalization-support) .personalization-tertiary-cta:hover {
+			color: #086d96 !important;
+		}
+	
+	/* END GraBlaTraBlu ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* START RedBlaTraBlu ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu {
+		background: #FFDFDF !important;
+	}
+	
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu .personalization-description,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu .personalization-description {
+		color: #333333 !important;
+	}
+	
+	/*account*/
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu .personalization-account,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu .personalization-account {
+		color: #111111 !important;
+	}
+	
+	/*account-tag*/
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu .personalization-account-tag,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu .personalization-account-tag {
+		color: #111111 !important;
+	}
+	
+	/*title*/
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu .personalization-title,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu .personalization-title {
+		color: #333333 !important;
+	}
+	
+	/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu .personalization-description,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu .personalization-description {
+		color: rgba(17, 17, 17, 0.85) !important;
+	}
+	
+	/*account-date*/
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu .personalization-date,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu .personalization-date {
+		color: #333333 !important;
+	}
+	
+	/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-primary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-primary-cta {
+		background: transparent !important;
+		color: #086d96 !important;
+		border: none !important;
+	}
+	
+	/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-primary-cta:hover,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-primary-cta:hover {
+		background: transparent !important;
+		color: #086d96 !important;
+		border: none !important;
+	}
+	
+	/* in order
+	- secondary cta
+	- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-tertiary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-tertiary-cta {
+		color: #086d96 !important;
+	}
+	
+		/* secondary and tertiary cta hover and focus */
+		.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-secondary-cta:focus,
+		.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-secondary-cta:hover,
+		.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-tertiary-cta:focus,
+		.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-tertiary-cta:hover,
+		.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-secondary-cta:focus,
+		.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-secondary-cta:hover,
+		.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-tertiary-cta:focus,
+		.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedBlaTraBlu:not(.personalization-support) .personalization-tertiary-cta:hover {
+			color: #086d96 !important;
+		}
+	
+	/* END RedBlaTraBlu ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* START GraWhiWhiWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi {
+		background: #333 !important;
+	}
+	
+	/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi .personalization-title {
+			color: #fff !important;
+	}
+	
+	/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi .personalization-description {
+		color: rgba(255, 255, 255, 1) !important;
+	}
+	
+	/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi:not(.personalization-support) .personalization-primary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi:not(.personalization-support) .personalization-primary-cta {
+		background: #FFF !important;
+		color: #111 !important;
+		border: 2px solid #333 !important;
+	}
+	
+	/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi:not(.personalization-support) .personalization-primary-cta:hover,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi:not(.personalization-support) .personalization-primary-cta:hover {
+		background: #FFF !important;
+		color: #111 !important;
+		border: 2px solid #333 !important;
+	}
+
+	/* FOR NON PERSONALIZATION-SUPPORT */
+		/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi:not(.personalization-support) .personalization-tertiary-cta {
+		color: #79D4FF !important;
+	}
+	
+	/* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi:not(.personalization-support) .personalization-tertiary-cta:hover {
+		color: #79D4FF !important;
+	}
+	/* END FOR NON PERSONALIZATION-SUPPORT */
+	
+	/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi.personalization-support .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi.personalization-support .personalization-tertiary-cta {
+		color: #79D4FF !important;
+	}
+	
+	/* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi.personalization-support .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi.personalization-support .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi.personalization-support .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiWhiWhi.personalization-support .personalization-tertiary-cta:hover {
+		color: #79D4FF !important;
+	}
+	
+	/* END GraWhiWhiWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/*START RedWhiTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi{
+		background-color: #CE2F22 !important;
+	}
+		
+		/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi .personalization-title {
+		color: #fff !important;
+	}
+
+	/* personalization-account-tag */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi .personalization-account-tag > div {
+		color: #111111 !important;
+		background: #f4f4f4 !important;
+	}
+		
+		
+		/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi .personalization-description {
+		color: #fff !important;
+	}
+		
+		/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi:not(.personalization-support) .personalization-primary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi:not(.personalization-support) .personalization-primary-cta {
+		background: 0 0 !important;
+		color: #fff!important;
+		border: 2px solid #fff!important;
+	}
+		
+		/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi:not(.personalization-support) .personalization-primary-cta:hover{
+		background: transparent !important;
+		color: #fff !important;
+		border: 2px solid #fff !important;
+	}
+		
+		/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi:not(.personalization-support) .personalization-tertiary-cta {
+		color: #016d98 !important;
+	}
+		
+		/* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-RedWhiTraWhi:not(.personalization-support) .personalization-tertiary-cta:hover {
+		color: #016d98 !important;
+	}
+	
+	/*END RedWhiTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* START GraWhiTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	    /* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi {
+		background: #333 !important;
+	}
+	
+	    /* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi .personalization-title {
+			color: #fff !important;
+	}
+
+	    /* personalization-account-tag */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi .personalization-account-tag > div {
+		color: #111111 !important;
+		background: #f4f4f4 !important;
+	}	
+	
+	    /* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi .personalization-description {
+		color: rgba(255, 255, 255, 1) !important;
+	}
+	
+	    /* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi:not(.personalization-support) .personalization-primary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi:not(.personalization-support) .personalization-primary-cta {
+		background: 0 0 !important;
+		color: #fff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+	    /* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi:not(.personalization-support) .personalization-primary-cta:hover,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi:not(.personalization-support) .personalization-primary-cta:hover {
+		background: transparent !important;
+		color: #fff !important;
+		border: 2px solid #ffffff !important;
+	}
+	
+	
+	    /* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi:not() .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi:not() .personalization-tertiary-cta {
+		color: #79D4FF !important;
+	}
+	
+	    /* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi:not() .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi:not() .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi:not() .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraWhiTraWhi:not() .personalization-tertiary-cta:hover {
+		color: #79D4FF !important;
+	}
+	
+	/* END GraWhiTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/*START GrayBlaTraBla ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla {
+		background-color: #f4f4f4 !important;
+	}
+			
+		/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla .personalization-account,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla .personalization-title,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla .personalization-account,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla .personalization-title {
+		color: #111 !important;
+	}			
+			
+		/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla .personalization-description,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla .personalization-description {
+		color: #555555 !important;
+	}
+			
+		/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-primary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-primary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-primary-cta {
+		background: 0 0 !important;
+		color: #111!important;
+		border: 2px solid #111!important;
+	}
+		
+		/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-primary-cta:hover,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-primary-cta:hover {
+		background: transparent !important;
+		color: #111 !important;
+		border: 2px solid #111 !important;
+	}
+		
+		/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-tertiary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-tertiary-cta {
+		color: #016d98 !important;
+	}
+			
+		/* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-tertiary-cta:hover,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GrayBlaTraBla:not(.personalization-support) .personalization-tertiary-cta:hover {
+		color: #016d98 !important;
+	}
+			
+	/*END GrayBlaTraBla ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	/* START GraBlaRedWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi {
+		background: #e9e9e9 !important;
+	}
+	
+		/* in order
+		- account
+		- title */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi .personalization-description,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi .personalization-description {
+		color: #333333 !important;
+	}
+	
+		/*account*/
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi .personalization-account,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi .personalization-account {
+		color: #111111 !important;
+	}
+	
+		/*account-tag*/
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi .personalization-account-tag,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi .personalization-account-tag {
+		color: #111111 !important;
+	}
+	
+		/*title*/
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi .personalization-title,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi .personalization-title {
+		color: #333333 !important;
+	}
+	
+		/* description */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi .personalization-description,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi .personalization-description {
+		color: rgba(17, 17, 17, 0.85) !important;
+	}
+	
+		/*account-date*/
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi .personalization-date,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi .personalization-date {
+		color: #333333 !important;
+	}
+	
+		/* primary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-primary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-primary-cta {
+		background: #cc0000 !important;
+		color: #fff !important;
+		border: none !important;
+	}
+	
+		/* primary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-primary-cta:hover,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-primary-cta:focus,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-primary-cta:hover {
+		background: #cc0000 !important;
+		color: #fff !important;
+		border: none !important;
+	}
+	
+		/* in order
+		- secondary cta
+		- tertiary cta */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-tertiary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-secondary-cta,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-tertiary-cta {
+		color: #086d96 !important;
+	}
+	
+		/* secondary and tertiary cta hover and focus */
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-slider-container.personalization-slider-container .personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-tertiary-cta:hover,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-secondary-cta:focus,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-secondary-cta:hover,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-tertiary-cta:focus,
+	.personalization-tile-container.personalization-revamped.personalization-revamped.personalization-GraBlaRedWhi:not(.personalization-support) .personalization-tertiary-cta:hover {
+		color: #086d96 !important;
+	}
+	
+	/* END GraBlaRedWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	/* END Personalization Enhancement - Themes */
+	
+	
+	@media screen and (min-width: 768px) {
+		/* START - personalization enhancement modal - Themes */
+	
+		/* Default ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+		.personalization-revamped-modal .personalization-modal-container .modal-content{
+			background: #ffffff !important;
+		}
+	
+			/* in order
+			- account
+			- title */
+		.personalization-revamped-modal .personalization-modal-container .personalization-modal-account,
+		.personalization-revamped-modal .personalization-modal-container .personalization-modal-title{
+			color: #111111 !important;
+		}
+			/* description */
+		.personalization-revamped-modal .personalization-modal-container .personalization-modal-description {
+			color: rgba(17, 17, 17, 0.85) !important;
+		}
+			/* primary cta */
+		.personalization-revamped-modal .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 2px solid #ffffff !important;
+		}
+			/* primary cta hover and focus */
+		.personalization-revamped-modal .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+		.personalization-revamped-modal .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover
+		{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 2px solid #ffffff !important;
+		}
+			/* secondary cta */
+		.personalization-revamped-modal .personalization-modal-container .modal-body a.personalization-modal-secondary-cta {
+			color: #016d98 !important;
+		}
+			/* secondary cta focus and hover */
+		.personalization-revamped-modal .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:focus,
+		.personalization-revamped-modal .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:hover {
+			color: #016d98 !important;
+		}
+			/* Anchor tag inside description */
+		.personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+			color: #016d98 !important;
+		}
+			/* Accordion focus and hover */
+		.personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+		.personalization-revamped-modal .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover{
+			color: #016d98 !important;
+		}
+	
+			/* modal close */
+		.personalization-revamped-modal .personalization-modal-container .modal-header .personalization-modal-close span{
+			background: #ffffff !important;
+			color: #E10A0A !important;
+			border: 2px solid #E10A0A !important;
+		}
+			/* modal close hover and focus */
+		.personalization-revamped-modal .personalization-modal-container .modal-header .personalization-modal-close:focus span,
+		.personalization-revamped-modal .personalization-modal-container .modal-header .personalization-modal-close:hover span,
+		.personalization-revamped-modal .personalization-modal-container .modal-header .personalization-modal-close:focus,
+		.personalization-revamped-modal .personalization-modal-container .modal-header .personalization-modal-close:hover{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 1px solid #E10A0A !important;
+		}
+	
+		/* Default ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+		/* BlaWhiTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+			/* Background color */
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-content{
+			background: #000 !important;
+		}
+	
+			/* in order
+			- account
+			- title */
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .personalization-modal-account,
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .personalization-modal-title {
+			color: #ffffff !important;
+		}
+			/* description */
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .personalization-modal-description {
+			color: rgba(255, 255, 255, 0.85) !important;
+		}
+			/* primary cta */
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn.btn{
+			background: transparent !important;
+			color: #ffffff !important;
+			border: 2px solid #ffffff !important;
+		}
+			/* primary cta hover and focus */
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover {
+			background: transparent !important;
+			color: #ffffff !important;
+			border: 2px solid #ffffff !important;
+		}
+			/* secondary cta */
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta {
+			color: #06a8eb !important;
+		}
+	
+			/* secondary cta focus and hover */
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:focus,
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:hover {
+			color: #06a8eb !important;
+		}
+		/* Anchor tag inside description */
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+			color: #06a8eb !important;
+		}
+	
+		/* Accordion focus and hover */
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover{
+			color: #06a8eb !important;
+		}
+			/* modal close */
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close span{
+			background: #ffffff !important;
+			color: #E10A0A !important;
+			border: 2px solid #E10A0A !important;
+		}
+			/* modal close hover and focus */
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close:focus span,
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close:hover span,
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close:focus,
+		.personalization-revamped-modal.personalization-BlaWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close:hover{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 1px solid #E10A0A !important;
+		}
+	
+		/* BlaWhiTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+		/* BlaWhiTraRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+			/* Background color */
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-content{
+			background: #000 !important;
+		}
+	
+			/* in order
+			- account
+			- title */
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .personalization-modal-account,
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .personalization-modal-title {
+			color: #ffffff !important;
+		}
+			/* description */
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .personalization-modal-description {
+			color: rgba(255, 255, 255, 0.85) !important;
+		}
+			/* primary cta */
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn.btn{
+			background: transparent !important;
+			color: #ffffff !important;
+			border: 2px solid #ffffff !important;
+		}
+			/* primary cta hover and focus */
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover {
+			background: transparent !important;
+			color: #ffffff !important;
+			border: 2px solid #ffffff !important;
+		}
+			/* secondary cta */
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-body a.personalization-modal-secondary-cta {
+			color: #06a8eb !important;
+		}
+			/* secondary cta focus and hover */
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:focus,
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:hover {
+			color: #06a8eb !important;
+		}
+		/* Anchor tag inside description */
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+			color: #06a8eb !important;
+		}
+	
+		/* Accordion focus and hover */
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover{
+			color: #06a8eb !important;
+		}
+			/* modal close */
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-header .personalization-modal-close span{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 1px solid #E10A0A !important;
+		}
+			/* modal close hover and focus */
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-header .personalization-modal-close:focus span,
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-header .personalization-modal-close:hover span,
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-header .personalization-modal-close:focus,
+		.personalization-revamped-modal.personalization-BlaWhiTraRed .personalization-modal-container .modal-header .personalization-modal-close:hover{
+			background: #ffffff !important;
+			color: #E10A0A !important;
+			border: 1px solid #E10A0A !important;
+		}
+		/* BlaWhiTraRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+		/* WhiBlaTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+			/* Background color */
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-content{
+			background: #ffffff;
+		}
+	
+			/* in order
+			- account
+			- title */
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .personalization-modal-account,
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .personalization-modal-title {
+			color: #111111 !important;
+		}
+
+		/* personalization-account-tag */
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .personalization-account-tag > div {
+			color: #111111 !important;
+			background: #f4f4f4 !important;
+		}
+
+			/* description */
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .personalization-modal-description {
+			color: rgba(17, 17, 17, 0.85) !important;
+		}
+			/* primary cta */
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn {
+			background: transparent !important;
+			color: #0e0e0e !important;
+			border: 2px solid #0e0e0e !important;
+		}
+			/* primary cta hover and focus */
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover {
+			background: transparent !important;
+			color: #111111 !important;
+			border: 2px solid #0e0e0e !important;
+		}
+			/* secondary cta */
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta {
+			color: #016d98 !important;
+		}
+			/* secondary cta focus and hover */
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:focus,
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:hover {
+			color: #016d98 !important;
+		}
+		/* Anchor tag inside description */
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+			color: #016d98 !important;
+		}
+	
+		/* Accordion focus and hover */
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover{
+			color: #016d98 !important;
+		}
+			/* modal close */
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-header .personalization-modal-close span{
+			background: #ffffff !important;
+			color: #E10A0A !important;
+			border: 2px solid #E10A0A !important;
+		}
+			/* modal close hover and focus */
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-header .personalization-modal-close:focus span,
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-header .personalization-modal-close:hover span,
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-header .personalization-modal-close:focus,
+		.personalization-revamped-modal.personalization-WhiBlaTraWhi .personalization-modal-container .modal-header .personalization-modal-close:hover{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 1px solid #E10A0A !important;
+		}
+		/* WhiBlaTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+		/* WhiBlaTraRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+			/* Background color */
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-content{
+			background: #ffffff !important;
+		}
+	
+			/* in order
+			- account
+			- title */
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .personalization-modal-account,
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .personalization-modal-title {
+			color: #111111 !important;
+		}
+			/* description */
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .personalization-modal-description {
+			color: rgba(17, 17, 17, 0.85) !important;
+		}
+			/* primary cta */
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn {
+			background: transparent !important;
+			color: #0e0e0e !important;
+			border: 2px solid #0e0e0e !important;
+		}
+			/* primary cta hover and focus */
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover {
+			background: transparent !important;
+			color: #0e0e0e !important;
+			border: 2px solid #0e0e0e !important;
+		}
+			/* secondary cta */
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-body a.personalization-modal-secondary-cta {
+			color: #016d98 !important;
+		}
+			/* secondary cta focus and hover */
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:focus,
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:hover {
+			color: #016d98 !important;
+		}
+		/* Anchor tag inside description */
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+			color: #016d98 !important;
+		}
+	
+		/* Accordion focus and hover */
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover{
+			color: #016d98 !important;
+		}
+			/* modal close */
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-header .personalization-modal-close span{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 1px solid #E10A0A !important;
+		}
+			/* modal close hover and focus */
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-header .personalization-modal-close:focus span,
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-header .personalization-modal-close:hover span,
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-header .personalization-modal-close:focus,
+		.personalization-revamped-modal.personalization-WhiBlaTraRed .personalization-modal-container .modal-header .personalization-modal-close:hover{
+			background: #ffffff !important;
+			color: #E10A0A !important;
+			border: 1px solid #E10A0A !important;
+		}
+		/* WhiBlaTraRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+		/* BlaWhiBlaWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+			/* Background color */
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-content{
+			background: #000 !important;
+		}
+	
+			/* in order
+			- account
+			- title */
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .personalization-modal-account,
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .personalization-modal-title {
+			color: #ffffff !important;
+		}
+			/* description */
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .personalization-modal-description {
+			color: rgba(255, 255, 255, 0.85) !important;
+		}
+			/* primary cta */
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn{
+			background: #0e0e0e !important;						 
+			color: #ffffff !important;									 
+			border: 2px solid #ffffff !important;					 
+		}															 
+			/* primary cta hover and focus */						 
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover {
+			background: #0e0e0e !important;
+			color: #ffffff !important;
+			border: 2px solid #ffffff !important;
+		}
+			/* secondary cta */
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta {
+			color: #06a8eb !important;
+		}
+			/* secondary cta focus and hover */
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:focus,
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:hover {
+			color: #06a8eb !important;
+		}
+		/* Anchor tag inside description */
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+			color: #06a8eb !important;
+		}
+	
+		/* Accordion focus and hover */
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover{
+			color: #06a8eb !important;
+		}
+			/* modal close */
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-header .personalization-modal-close span{
+			background: #ffffff !important;
+			color: #E10A0A !important;
+			border: 2px solid #E10A0A !important;
+		}
+			/* modal close hover and focus */
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-header .personalization-modal-close:focus span,
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-header .personalization-modal-close:hover span,
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-header .personalization-modal-close:focus,
+		.personalization-revamped-modal.personalization-BlaWhiBlaWhi .personalization-modal-container .modal-header .personalization-modal-close:hover{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 1px solid #E10A0A !important;
+		}
+	
+		/* BlaWhiBlaWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+		/* BlaWhiBlaRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+			/* Background color */
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-content{
+			background: #000 !important;
+		}
+	
+			/* in order
+			- account
+			- title */
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .personalization-modal-account,
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .personalization-modal-title {
+			color: #ffffff !important;
+		}
+			/* description */
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .personalization-modal-description {
+			color: rgba(255, 255, 255, 0.85) !important;
+		}
+			/* primary cta */
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn{
+			background: #0e0e0e !important;						 
+			color: #ffffff !important;									 
+			border: 2px solid #ffffff !important;					 
+		}															 
+			/* primary cta hover and focus */						 
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover {
+			background: #0e0e0e !important;
+			color: #ffffff !important;
+			border: 2px solid #ffffff !important;
+		}
+			/* secondary cta */
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-body a.personalization-modal-secondary-cta {
+			color: #06a8eb !important;
+		}
+			/* secondary cta focus and hover */
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:focus,
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:hover {
+			color: #06a8eb !important;
+		}
+		/* Anchor tag inside description */
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+			color: #06a8eb !important;
+		}
+	
+		/* Accordion focus and hover */
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover{
+			color: #06a8eb !important;
+		}
+			/* modal close */
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-header .personalization-modal-close span{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 1px solid #E10A0A !important;
+		}
+			/* modal close hover and focus */
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-header .personalization-modal-close:focus span,
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-header .personalization-modal-close:hover span,
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-header .personalization-modal-close:focus,
+		.personalization-revamped-modal.personalization-BlaWhiBlaRed .personalization-modal-container .modal-header .personalization-modal-close:hover{
+			background: #ffffff !important;
+			color: #E10A0A !important;
+			border: 1px solid #E10A0A !important;
+		}
+		/* BlaWhiBlaRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+		/* WhiBlaRedWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+			/* Background color */
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-content{
+			background: #ffffff !important;
+		}
+	
+			/* in order
+			- account
+			- title  */
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .personalization-modal-account,
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .personalization-modal-title {
+			color: #111111 !important;
+		}
+			/* description */
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .personalization-modal-description {
+			color: rgba(17, 17, 17, 0.85) !important;
+		}
+			/* primary cta */
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 2px solid #ffffff !important;
+		}
+			/* primary cta hover and focus */
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover
+		{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 2px solid #ffffff !important;
+		}
+			/* secondary cta */
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta {
+			color: #016d98 !important;
+		}
+			/* secondary cta focus and hover */
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:focus,
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:hover {
+			color: #016d98 !important;
+		}
+		/* Anchor tag inside description */
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+			color: #016d98 !important;
+		}
+	
+		/* Accordion focus and hover */
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover{
+			color: #016d98 !important;
+		}
+			/* modal close */
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-header .personalization-modal-close span{
+			background: #ffffff !important;
+			color: #E10A0A !important;
+			border: 2px solid #E10A0A !important;
+		}
+			/* modal close hover and focus */
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-header .personalization-modal-close:focus span,
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-header .personalization-modal-close:hover span,
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-header .personalization-modal-close:focus,
+		.personalization-revamped-modal.personalization-WhiBlaRedWhi .personalization-modal-container .modal-header .personalization-modal-close:hover{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 1px solid #E10A0A !important;
+		}
+	
+		/* WhiBlaRedWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+		/* WhiBlaRedRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+			/* Background color */
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-content{
+			background: #ffffff !important;
+		}
+	
+			/* in order
+			- account
+			- title  */
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .personalization-modal-account,
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .personalization-modal-title {
+			color: #111111 !important;
+		}
+			/* description */
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .personalization-modal-description {
+			color: rgba(17, 17, 17, 0.85) !important;
+		}
+			/* primary cta */
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 2px solid #ffffff !important;
+		}
+			/* primary cta hover and focus */
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover {
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 2px solid #ffffff !important;
+		}
+			/* secondary cta */
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-body a.personalization-modal-secondary-cta {
+			color: #016d98 !important;
+		}
+			/* secondary cta focus and hover */
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:focus,
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:hover {
+			color: #016d98 !important;
+		}
+		/* Anchor tag inside description */
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+			color: #016d98 !important;
+		}
+	
+		/* Accordion focus and hover */
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover{
+			color: #016d98 !important;
+		}
+			/* modal close */
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-header .personalization-modal-close span{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 1px solid #E10A0A !important;
+		}
+			/* modal close hover and focus */
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-header .personalization-modal-close:focus span,
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-header .personalization-modal-close:hover span,
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-header .personalization-modal-close:focus,
+		.personalization-revamped-modal.personalization-WhiBlaRedRed .personalization-modal-container .modal-header .personalization-modal-close:hover{
+			background: #ffffff !important;
+			color: #E10A0A !important;
+			border: 1px solid #E10A0A !important;
+		}
+		/* WhiBlaRedRed ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		
+		/*START RedWhiTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+			/* Background color */
+		 .personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-content{
+			background-color: #CE2F22 !important;
+		}
+			/* in order
+			- account
+			- title */
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .personalization-modal-account,
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .personalization-modal-title {
+			color: #fff !important;
+		}
+	
+		/* personalization-account-tag */
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .personalization-account-tag > div {
+			color: #111111 !important;
+			background: #f4f4f4 !important;
+		}
+		
+			/* description */
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .personalization-modal-description {
+			color: #fff !important;
+		}
+			/* primary cta */
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn {
+			background: transparent !important;
+			color: #fff !important;
+			border: 2px solid #fff !important;
+		}
+	
+			/* primary cta hover and focus */
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover {
+			background: transparent !important;
+			color: #fff !important;
+			border: 2px solid #fff !important;
+		}
+	
+			/* secondary cta */
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta {
+			color: #016d98 !important;
+		}
+	
+			/* secondary cta focus and hover */
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:focus,
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:hover {
+			color: #016d98 !important;
+		}
+	
+			/* Anchor tag inside description */
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+			color: #016d98 !important;
+		}
+	
+			/* Accordion focus and hover */
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover{
+			color: #016d98 !important;
+		}
+			/* modal close */
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close span{
+			background: #ffffff !important;
+			color: #E10A0A !important;
+			border: 2px solid #fff !important;
+		}
+			/* modal close hover and focus */
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close:focus span,
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close:hover span,
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close:focus,
+		.personalization-revamped-modal.personalization-RedWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close:hover{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 1px solid #fff !important;
+		}
+		/*END RedWhiTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+		/* START GraWhiWhiWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		/* Background color */
+		.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-content {
+			background: #333 !important;
+		}
+	
+		/* in order
+			- account
+			- title */
+		.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .personalization-modal-account,
+		.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .personalization-modal-title {
+			color: #ffffff !important;
+		}
+		/* description */
+		.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .personalization-modal-description {
+			color: rgba(255, 255, 255, 1) !important;
+		}
+		/* primary cta */
+		.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn {
+			background: #FFF !important;
+			color: #111 !important;
+			border: 2px solid #333 !important;
+		}
+			/* primary cta hover and focus */
+			.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+			.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover {
+				background: #FFF !important;
+				color: #111 !important;
+				border: 2px solid #333 !important;
+			}
+		/* secondary cta */
+		.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta {
+			color: #79D4FF !important;
+		}
+			/* secondary cta focus and hover */
+			.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:focus,
+			.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:hover {
+				color: #79D4FF !important;
+			}
+		/* Anchor tag inside description */
+        .personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+            color: #79D4FF !important;
+        }
+	
+			/* Accordion focus and hover */
+			.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+			.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover {
+				color: #79D4FF !important;
+			}
+		/* modal close */
+		.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-header .personalization-modal-close span {
+			background: #ffffff !important;
+			color: #E10A0A !important;
+			border: 2px solid #fff !important;
+		}
+		/* modal close hover and focus */
+		.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-header .personalization-modal-close:focus span,
+		.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-header .personalization-modal-close:hover span,
+		.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-header .personalization-modal-close:focus,
+		.personalization-revamped-modal.personalization-GraWhiWhiWhi .personalization-modal-container .modal-header .personalization-modal-close:hover {
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 1px solid #fff !important;
+		}
+		/* END GraWhiWhiWhi  */
+
+		/*START GraWhiTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+			/* Background color */
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-content {
+			background: #333 !important;
+		}
+			/* in order
+			- account
+			- title */
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .personalization-modal-account,
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .personalization-modal-title {
+			color: #fff !important;
+		}
+	
+		/* personalization-account-tag */
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .personalization-account-tag > div {
+			color: #111111 !important;
+			background: #f4f4f4 !important;
+		}
+		
+			/* description */
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .personalization-modal-description {
+			color: #fff !important;
+		}
+			/* primary cta */
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn {
+			background: transparent !important;
+			color: #fff !important;
+			border: 2px solid #fff !important;
+		}
+	
+			/* primary cta hover and focus */
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:focus,
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-primary-cta.btn:hover {
+			background: transparent !important;
+			color: #fff !important;
+			border: 2px solid #fff !important;
+		}
+	
+			/* secondary cta */
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta {
+			color: #016d98 !important;
+		}
+	
+			/* secondary cta focus and hover */
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:focus,
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-body a.personalization-modal-secondary-cta:hover {
+			color: #016d98 !important;
+		}
+	
+			/* Anchor tag inside description */
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn) {
+			color: #016d98 !important;
+		}
+	
+			/* Accordion focus and hover */
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):focus,
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-body .personalization-modal-description a:not(.btn):hover{
+			color: #016d98 !important;
+		}
+			/* modal close */
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close span{
+			background: #ffffff !important;
+			color: #E10A0A !important;
+			border: 2px solid #fff !important;
+		}
+			/* modal close hover and focus */
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close:focus span,
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close:hover span,
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close:focus,
+		.personalization-revamped-modal.personalization-GraWhiTraWhi .personalization-modal-container .modal-header .personalization-modal-close:hover{
+			background: #E10A0A !important;
+			color: #ffffff !important;
+			border: 1px solid #fff !important;
+		}
+		/*END GraWhiTraWhi ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */	
+		/* End - personalization enhancement modal - Themes */
+	}

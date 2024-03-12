@@ -1,0 +1,42 @@
+[
+  {
+      "id": "BOTTOM-1",
+      "image": "./src/assets/images/cross-sell/Image_1A.png",
+      "account": "Account: 1234567890",
+      "title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo li",
+      "button": {
+        "label": "Primary",
+        "args": {
+          "className": "personalization-primary-cta"
+      }
+    },
+      "link": {
+        "props": {
+          "children": "Secondary"
+      },
+        "args": {
+          "href": "#"
+      }
+    }
+  },
+  {
+      "id": "BOTTOM-1",
+      "image": "./src/assets/images/cross-sell/Image_1A.png",
+      "account": "Account: 1234567890",
+      "title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo li",
+      "button": {
+        "label": "Primary",
+        "args": {
+          "className": "personalization-primary-cta"
+      }
+    },
+      "link": {
+        "props": {
+          "children": "Secondary"
+      },
+        "args": {
+          "href": "#"
+      }
+    }
+  }
+]

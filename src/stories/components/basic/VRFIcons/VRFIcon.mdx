@@ -1,0 +1,31 @@
+import { Meta, Controls, Canvas, Story, Title, IconGallery, IconItem } from '@storybook/blocks';
+
+import { Icon as IconExample } from "../../../../components";
+import * as IconStories from "./VRFIcon.stories";
+
+<Meta of={IconStories} />
+
+# VRF Icons
+
+<Canvas of={IconStories.SelectIcon} />
+<Controls />
+
+Below are the list of available VRF Icons' names/classes:
+
+<IconGallery>
+    <div class="iconListItem txtSize30">
+        <IconItem name="icon-mobile">
+            <IconExample iconName="icon-mobile" />
+        </IconItem>
+    </div>
+    <div class="iconListItem txtSize30">
+        <IconItem name="icon-check">
+            <IconExample iconName="icon-check" />
+        </IconItem>
+    </div>
+    <div class="iconListItem txtSize30">
+      <IconItem name="icon-error">
+        <IconExample iconName="icon-error" />
+      </IconItem>
+    </div>
+</IconGallery>

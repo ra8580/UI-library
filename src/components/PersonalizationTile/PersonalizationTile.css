@@ -1,0 +1,141 @@
+.landing-personalization-tile .PersonalizationTilesContainer {
+  opacity: 1 !important;
+}
+
+.landing-personalization-tile .personalization-slider-container {
+  display: block;
+}
+
+.landing-personalization-tile .personalization-slider-container > div {
+  background-color: transparent !important;
+  margin-right: 0px !important;
+  overflow: visible !important;
+  display: block !important;
+}
+
+.landing-personalization-tile .personalization-slider-container > div > div {
+  display: block !important;
+}
+
+.vrf-personalization-tile .personalization-tile-container {
+  min-width: auto !important;
+  border: 1px solid #CDCFD5;
+  background-color: #FFFFFF !important;
+  border-radius: 16px;
+  max-width: 392px;
+  display: flex;
+  display: -webkit-flex;
+  flex: 1;
+  -webkit-flex: 1;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.vrf-personalization-tile .personalization-tile-container .personalization-tile-image-container {
+  margin-left: -23.47px !important;
+  min-width: 159.51px !important;
+  border-radius: 0 9px 9px 0;
+  width: auto;
+  box-shadow: none;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.vrf-personalization-tile .personalization-tile-container .personalization-tile-image-container img {
+  position: absolute;
+  width: calc(100% + 16.47px) !important;
+  bottom: 0 !important;
+  top: auto;
+  transform: none;
+  right: auto;
+  left: 0;
+}
+
+.vrf-personalization-tile .personalization-tile-container .personalization-tile-content-container {
+  padding: 16px 0px 16px 16px;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  align-items: center;
+  -webkit-align-items: center;
+  width: 100%;
+  min-height: 203px;
+  overflow: visible;
+  z-index: 1;
+}
+
+.vrf-personalization-tile .personalization-tile-container .personalization-tile-content-container .personalization-tile-details-container {
+  width: 100%;
+  margin-bottom: 0px !important;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-grow: 1;
+}
+
+.vrf-personalization-tile .personalization-tile-container .personalization-tile-content-container .personalization-tile-details-container .personalization-account {
+  font-family: 'Poppins-SemiBold', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #444D63 !important;
+  line-height: 135%;
+  letter-spacing: normal;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vrf-personalization-tile .personalization-tile-container .personalization-tile-content-container .personalization-tile-details-container .personalization-title {
+  font-family: 'Poppins-SemiBold', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #131C35 !important;
+  line-height: 20px;
+  letter-spacing: normal;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.vrf-personalization-tile .personalization-tile-container .personalization-tile-content-container .personalization-tile-cta-container {
+  text-align: left;
+  margin-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  flex-wrap: wrap;
+  white-space: nowrap;
+}
+
+.vrf-personalization-tile .personalization-tile-container .personalization-tile-content-container .personalization-tile-cta-container .personalization-primary-cta {
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  white-space: normal;
+  width: auto;
+}
+
+.vrf-personalization-tile .personalization-tile-container .personalization-tile-content-container .personalization-tile-cta-container .link {
+  font-family: 'Poppins-SemiBold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: normal;
+  margin-bottom: 1px;
+  padding-left: 0px !important;
+  white-space: normal;
+  margin-top: 5px;
+  display: inline-block;
+  word-break: break-word;
+  padding-left: 0px;
+  text-underline-offset: 4px;
+}
+
+
+.flex-justify-space-between {
+  justify-content: space-between;
+}

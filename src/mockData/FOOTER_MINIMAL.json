@@ -1,0 +1,22 @@
+{
+	"SKIP_TO_MAIN": "Skip to main content",
+	"LINKS": [
+		{
+			"linkName": "Contact Us",
+			"linkUrl": "#"
+		},
+		{
+			"linkName": "Privacy",
+			"linkUrl": "#"
+		},
+		{
+			"linkName": "Legal Regulatory",
+			"linkUrl": "#"
+		},
+		{
+			"linkName": "Wireless Code Member Rights",
+			"linkUrl": "#"
+		}
+	],
+	"BRAND_ALL_RIGHTS": "© Virgin Mobile Canada. All rights reserved."
+}

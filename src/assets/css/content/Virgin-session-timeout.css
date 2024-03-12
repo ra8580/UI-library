@@ -1,0 +1,434 @@
+/* all brand stylesheet must define where text and icon fonts will be pulled from */
+
+/* MAVERICK FONT FACE */
+@font-face {
+    font-family: 'vrf-icons';
+    src: url(../../core/fonts/vrf-icons.eot?#iefix) format("embedded-opentype"), url(../../core/fonts/vrf-icons.woff2) format("woff2"), url(../../core/fonts/vrf-icons.svg) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../../core/fonts/Poppins-Regular.woff2) format("woff2"),url(../../core/fonts/Poppins-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../../core/fonts/Poppins-SemiBold.woff2) format("woff2"),url(../../core/fonts/Poppins-SemiBold.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+/* END MAVERICK FONT FACE */
+
+#session-modal-expired .session-timeout-icon:before,
+#session-modal-expiring .session-timeout-icon:before {
+    content: "\e904" !important;
+    top: 0;
+    font-family: 'vrf-icons' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
+/* this class is applied to the body tag upon clicking the expired session lightbox's log in button */
+body.session-modal-wait,
+body.session-modal-wait * {
+    cursor: wait !important;
+}
+
+/* this class is applied to the body tag while a session lightbox is shown */
+.session-modal-open {
+    overflow: hidden;
+}
+
+    /* when a session modal is shown, all other modals should be behind it */
+    .session-modal-open .modal-backdrop {
+        z-index: 9999996 !important;
+    }
+
+    .session-modal-open .modal:not(.session-modal),
+    .session-modal-open [role=dialog]:not(.modal):not(.session-modal) {
+        z-index: 9999997 !important;
+    }
+
+/* all brand stylesheet must have this class and the z-index should be at least 1 less than the #session-modal-backdrop z-index and it should have !important. use this class for custom elements that should be moved behind the session lightbox */
+.session-timeout-zindex-override {
+    z-index: 9999997 !important;
+}
+
+
+/* when a session modal is shown, hide all other modals. this completely overrides the setting of z-index above. this is necessary until all react-bootstrap modals no longer hijack the focus and keyboard events */
+.session-modal-open .modal:not(.session-modal),
+.session-modal-open [role=dialog]:not(.modal):not(.session-modal),
+.session-modal-open .modal-backdrop,
+.session-timeout-zindex-override {
+    display: none;
+}
+
+/* minimal css reset + default body font styles */
+#session-modal-expired,
+#session-modal-expired *,
+#session-modal-expiring,
+#session-modal-expiring * {
+    background: 0 0;
+    border: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    position: static;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-align: left;
+    vertical-align: baseline;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #131C35;
+}
+
+    #session-modal-expired ::before,
+    #session-modal-expiring ::before {
+        line-height: 1
+    }
+
+#session-modal-expired,
+#session-modal-expiring {
+    display: none !important;
+    opacity: 0 !important;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
+}
+
+    #session-modal-expired.session-modal-shown,
+    #session-modal-expiring.session-modal-shown {
+        display: block !important;
+        opacity: 1 !important;
+    }
+
+    #session-modal-expired:before,
+    #session-modal-expiring:before {
+        display: none
+    }
+
+    #session-modal-expired .session-modal-dialog,
+    #session-modal-expiring .session-modal-dialog {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0 16px;
+        width: 100%
+    }
+
+    #session-modal-expired .session-modal-content,
+    #session-modal-expiring .session-modal-content {
+        background: #fff;
+        padding: 24px;
+        border-radius: 16px;
+    }
+
+    #session-modal-expired .session-modal-body,
+    #session-modal-expiring .session-modal-body {
+        height: auto;
+        display: block;
+    }
+
+    #session-modal-expired .session-modal-title,
+    #session-modal-expiring .session-modal-title {
+        color: #131c35;
+        font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif !important;
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 600;
+        margin-top: 16px;
+        margin-bottom: 12px;
+        max-width: 100%;
+        width: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    #session-modal-expired .session-modal-body-icon-wrap,
+    #session-modal-expiring .session-modal-body-icon-wrap {
+        height: 100%;
+        float: none;
+        margin: 0 15px 0 0;
+        line-height: 0;
+        display: block;
+    }
+
+    #session-modal-expired .session-timeout-icon,
+    #session-modal-expiring .session-timeout-icon {
+        color: #B4781D;
+        font-size: 32px;
+        display: block;
+    }
+
+        #session-modal-expired .session-timeout-icon::before,
+        #session-modal-expiring .session-timeout-icon::before {
+            /* the referenced Bell icon is not trimmed to artwork bounds so we need to reposition to align span and ::before. adjust this accordingly for other brands or use a dedicated icon for the session lightbox */
+            position: relative;
+            top: 0px;
+        }
+
+    #session-modal-expired .session-modal-expired-desc,
+    #session-modal-expired .session-modal-expired-desc {
+        line-height: 135%;
+        font-size: 14px;
+    }
+
+    #session-modal-expired p,
+    #session-modal-expiring p {
+        margin-bottom: 0;
+    }
+
+    #session-modal-expiring .session-modal-timer-label {
+        color: #131c35;
+        font-size: 14px;
+        line-height: 135%;
+        font-weight: 400;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    #session-modal-expiring .session-modal-timer {
+        color: #131c35 !important;
+        font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif !important;
+        font-size: 30px;
+        letter-spacing: -.4px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    #session-modal-expiring .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        border: 0;
+    }
+
+    #session-modal-expired .session-modal-cta,
+    #session-modal-expiring .session-modal-cta {
+        background-color: #E10a0a;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        margin-top: 24px;
+        padding: 13px 30px;
+        position: relative;
+        text-align: center;
+        font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif;
+    }
+
+    #session-modal-expiring .session-modal-cta {
+        width: auto;
+        display: block;
+        margin-bottom: 24px;
+    }
+
+        #session-modal-expired .session-modal-cta:focus,
+        #session-modal-expiring .session-modal-cta:focus,
+        #session-modal-expiring .session-modal-cancel:focus {
+            outline: 2px solid #4E4AE4;
+            outline-offset: 3px;
+            box-shadow: none;
+        }
+
+        #session-modal-expired .session-modal-cta:active,
+        #session-modal-expiring .session-modal-cta:active,
+        #session-modal-expired .session-modal-cta:hover,
+        #session-modal-expiring .session-modal-cta:hover {
+            background-color: #A40000;
+            color: #ffffff;
+        }
+
+            /* counter effects of focus outline overrides from page styles */
+            #session-modal-expired .session-modal-cta:focus:before,
+            #session-modal-expiring .session-modal-cta:focus:before,
+            #session-modal-expiring .session-modal-cancel:focus:before,
+            #session-modal-expired .session-modal-cta:focus:after,
+            #session-modal-expiring .session-modal-cta:focus:after,
+            #session-modal-expiring .session-modal-cancel:focus:after {
+                display: none !important;
+            }
+
+    #session-modal-expiring .session-modal-cancel {
+        color: #4E4AE4;
+        cursor: pointer;
+        margin-left: 0;
+        position: relative;
+        text-decoration: underline !important;
+        font-family: 'Poppins-SemiBold', Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 135%;
+        text-underline-offset: 4px;
+        width: auto;
+    }
+
+        #session-modal-expiring .session-modal-cancel:focus {
+            text-decoration: none !important;
+            outline-offset: 2px;
+            outline: 1px solid #4E4AE4;
+            border-radius: 1px;
+        }
+
+        #session-modal-expiring .session-modal-cancel:hover {
+            color: #2724A3;
+        }
+
+    #session-modal-expired.session-modal-shown ~ #session-modal-backdrop,
+    #session-modal-expiring.session-modal-shown ~ #session-modal-backdrop {
+        background: #000;
+        opacity: .6;
+        z-index: 9999998;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+@media screen and (min-width:768px) {
+    #session-modal-expiring,
+    #session-modal-expiring * {
+    width: 100%;
+    }
+
+    #session-modal-expired .session-modal-dialog,
+    #session-modal-expiring .session-modal-dialog {
+        padding: 0;
+        max-width: 645px
+    }
+
+    #session-modal-expired .session-modal-content,
+    #session-modal-expiring .session-modal-content {
+        padding: 40px 32px;
+        border-radius: 24px;
+    }
+
+    #session-modal-expired .session-modal-body,
+    #session-modal-expiring .session-modal-body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #session-modal-expired .session-modal-title,
+    #session-modal-expiring .session-modal-title {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 600;
+        margin-top: 0;
+    }
+
+    #session-modal-expired .session-modal-body-text-wrap,
+    #session-modal-expiring .session-modal-body-text-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #session-modal-expired .session-modal-body-icon-wrap,
+    #session-modal-expiring .session-modal-body-icon-wrap {
+        margin-top: 0px;
+        display: block;
+    }
+
+    #session-modal-expiring .session-modal-body-icon-wrap {
+        width: auto;
+    }
+
+    #session-modal-expired .session-timeout-icon,
+    #session-modal-expiring .session-timeout-icon {
+        font-size: 32px
+    }
+
+    #session-modal-expiring .session-modal-timer {
+        font-size: 40px;
+        letter-spacing: -0.6px;
+        line-height: 46px;
+    }
+
+    #session-modal-expiring .session-modal-cta {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    #session-modal-expiring .session-modal-cancel {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (min-width:1240px) {
+    #session-modal-expiring .session-modal-timer {
+        font-size: 40px;
+        letter-spacing: -0.6px;
+        line-height: 46px;
+    }
+}
+
+#session-modal-expiring-desc {
+    border-radius: 16px !important;
+    padding: 15px 30px;
+}
+
+.txtBlack {
+    color: #111;
+}
+
+.txtBold {
+    font-weight: bold;
+}
+
+.txtCenter {
+    text-align: center;
+}
+
+#session-modal-expiring .bgGrayLight {
+    background-color: #F3F2F0;
+}
+
+/* SR-Blank text is reading out */
+.empty-content::after, .empty-content::before {
+    content: "";
+}
+
+#session-modal-expiring .session-modal-timer {
+    font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif !important;
+    }
+    #session-modal-expired .session-modal-title,
+    #session-modal-expiring .session-modal-title {
+        font-family: 'Poppins-SemiBold', Arial, Helvetica, sans-serif !important;
+    }
+
+#session-modal-expiring .spacer15 {
+    height: 16px;
+}
+
+/* Remove unused spacer */
+#session-modal-expiring .spacer5-n,
+#session-modal-expiring .spacer10,
+#session-modal-expiring .spacer20-n {
+    display: none;
+}

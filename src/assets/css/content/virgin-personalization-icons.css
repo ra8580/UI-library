@@ -1,0 +1,1049 @@
+@font-face {
+	font-family: 'virgin-personalization-icons';
+	src: url('../fonts/virgin-personalization-icons.eot');
+	src: url('../fonts/virgin-personalization-icons.eot?#iefix') format('embedded-opentype'), url('../fonts/virgin-personalization-icons.woff2') format('woff2'), url('../fonts/virgin-personalization-icons.woff') format('woff'), url('../fonts/virgin-personalization-icons.ttf') format('truetype'), url('../fonts/virgin-personalization-icons.svg') format('svg');
+	font-stretch: normal;
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.personalization-tile-image-container [class^="icon-"], .personalization-tile-image-container [class*=" icon-"] ,
+.personalization-modal-img-container [class^="icon-"], .personalization-modal-img-container [class*=" icon-"]{ /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'virgin-personalization-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.sans-serif {
+    font-family: "Helvetica",Arial, sans-serif;
+    letter-spacing: 0
+}
+
+
+/* START final info icons */
+
+html .icon-I1_effective_date:before,
+html .icon-i1_effective_date:before {
+    content: "\e9a4";
+}
+
+html .icon-I2_payment_confirmation:before,
+html .icon-i2_payment_confirmation:before {
+    content: "\e9a5";
+}
+
+html .icon-I3_payment_received_date:before,
+html .icon-i3_payment_received_date:before {
+    content: "\e9a6";
+}
+
+html .icon-I4_promote_activity_online_mobility:before,
+html .icon-i4_promote_activity_online_mobility:before {
+    content: "\e9a7";
+}
+
+html .icon-I6_promote_activity_online_internet:before,
+html .icon-i6_promote_activity_online_internet:before {
+    content: "\e9a8";
+}
+
+html .icon-I8_promote_activity_online_payment:before,
+html .icon-i8_promote_activity_online_payment:before {
+    content: "\e9a9";
+}
+
+html .icon-I10_appointment_online_details:before,
+html .icon-i10_appointment_online_details:before {
+    content: "\e9aa";
+}
+
+html .icon-I11_appointment_tv_installation:before,
+html .icon-i11_appointment_tv_installation:before {
+    content: "\e9ab";
+}
+
+html .icon-I12_appointment_modem_installation:before,
+html .icon-i12_appointment_modem_installation:before {
+    content: "\e9ac";
+}
+
+html .icon-I14_speed_boost_eligible:before,
+html .icon-i14_speed_boost_eligible:before {
+    content: "\e9ad";
+}
+
+html .icon-I15_date_first_bill_available:before,
+html .icon-i15_date_first_bill_available:before {
+    content: "\e9ae";
+}
+
+html .icon-I16_bill_is_ready:before,
+html .icon-i16_bill_is_ready:before {
+    content: "\e9af";
+}
+
+html .icon-I18_roaming_travel_pass:before,
+html .icon-i18_roaming_travel_pass:before {
+    content: "\e9b0";
+}
+
+html .icon-I19_travel_section:before,
+html .icon-i19_travel_section:before {
+    content: "\e9b1";
+}
+
+html .icon-I22_HUG_eligible:before,
+html .icon-i22_HUG_eligible:before {
+    content: "\e9b2";
+}
+
+html .icon-I23_partial_HUG_eligible:before,
+html .icon-i23_partial_HUG_eligible:before {
+    content: "\e9b3";
+}
+
+html .icon-I24_add_a_line:before,
+html .icon-i24_add_a_line:before {
+    content: "\e9b4";
+}
+
+html .icon-I27_mobility_modification:before,
+html .icon-i27_mobility_modification:before {
+    content: "\e9b5";
+}
+
+html .icon-I28_credit_card_expiration_date:before,
+html .icon-i28_credit_card_expiration_date:before {
+    content: "\e9b6";
+}
+
+html .icon-I29_promo_soon_ending:before,
+html .icon-i29_promo_soon_ending:before {
+    content: "\e9b7";
+}
+
+html .icon-I30_bill_update:before,
+html .icon-i30_bill_update:before {
+    content: "\e9b8";
+}
+
+html .icon-I31_pay_your_bill_now:before,
+html .icon-i31_pay_your_bill_now:before {
+    content: "\e9b9";
+}
+
+html .icon-I33_ebill:before,
+html .icon-i33_ebill:before {
+    content: "\e9ba";
+}
+
+html .icon-I34_service_cancelled:before,
+html .icon-i34_service_cancelled:before {
+    content: "\e9bb";
+}
+
+html .icon-I35_bill_with_loyalty_price:before,
+html .icon-i35_bill_with_loyalty_price:before {
+    content: "\e9bc";
+}
+
+html .icon-I37_equipment_shipped:before,
+html .icon-i37_equipment_shipped:before {
+    content: "\e9c1";
+}
+
+html .icon-I38_equipment_received:before,
+html .icon-i38_equipment_received:before {
+    content: "\e9c2";
+}
+
+html .icon-I39_equipment_to_be_return:before,
+html .icon-i39_equipment_to_be_return:before {
+    content: "\e9c3";
+}
+
+html .icon-I40_equipment_return:before,
+html .icon-i40_equipment_return:before {
+    content: "\e9c4";
+}
+
+html .icon-I42_tv_promo:before,
+html .icon-i42_tv_promo:before {
+    content: "\e9c5";
+}
+
+html .icon-I50_generic_exclamation:before,
+html .icon-i50_generic_exclamation:before {
+    content: "\e9c6";
+}
+
+/* END final info icons */
+
+/* START final alert icons */
+
+html .icon-a1_effective_date .path1:before,
+html .icon-A1_effective_date .path1:before {
+    content: "\e9c7";
+    color: #E99E00;
+}
+
+html .icon-a1_effective_date .path2:before,
+html .icon-A1_effective_date .path2:before {
+    content: "\e9c8";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a1_effective_date .path3:before,
+html .icon-A1_effective_date .path3:before {
+    content: "\e9c9";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a2_payment_confirmation .path1:before,
+html .icon-A2_payment_confirmation .path1:before {
+    content: "\e9ca";
+    color: #E99E00;
+}
+
+html .icon-a2_payment_confirmation .path2:before,
+html .icon-A2_payment_confirmation .path2:before {
+    content: "\e9cb";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a2_payment_confirmation .path3:before,
+html .icon-A2_payment_confirmation .path3:before {
+    content: "\e9cc";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a3_payment_received_date .path1:before,
+html .icon-A3_payment_received_date .path1:before {
+    content: "\e9cd";
+    color: #E99E00;
+}
+
+html .icon-a3_payment_received_date .path2:before,
+html .icon-A3_payment_received_date .path2:before {
+    content: "\e9ce";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a3_payment_received_date .path3:before,
+html .icon-A3_payment_received_date .path3:before {
+    content: "\e9cf";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a4_promote_activity_online_mobility .path1:before,
+html .icon-A4_promote_activity_online_mobility .path1:before {
+    content: "\e9d0";
+    color: #E99E00;
+}
+
+html .icon-a4_promote_activity_online_mobility .path2:before,
+html .icon-A4_promote_activity_online_mobility .path2:before {
+    content: "\e9d1";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a4_promote_activity_online_mobility .path3:before,
+html .icon-A4_promote_activity_online_mobility .path3:before {
+    content: "\e9d2";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a6_promote_activity_online_internet .path1:before,
+html .icon-A6_promote_activity_online_internet .path1:before {
+    content: "\e9d3";
+    color: #E99E00;
+}
+
+html .icon-a6_promote_activity_online_internet .path2:before,
+html .icon-A6_promote_activity_online_internet .path2:before {
+    content: "\e9d4";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a6_promote_activity_online_internet .path3:before,
+html .icon-A6_promote_activity_online_internet .path3:before {
+    content: "\e9d5";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a8_promote_activity_online_payment .path1:before,
+html .icon-A8_promote_activity_online_payment .path1:before {
+    content: "\e9d6";
+    color: #E99E00;
+}
+
+html .icon-a8_promote_activity_online_payment .path2:before,
+html .icon-A8_promote_activity_online_payment .path2:before {
+    content: "\e9d7";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a8_promote_activity_online_payment .path3:before,
+html .icon-A8_promote_activity_online_payment .path3:before {
+    content: "\e9d8";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a10_appointment_online_details .path1:before,
+html .icon-A10_appointment_online_details .path1:before {
+    content: "\e9d9";
+    color: #E99E00;
+}
+
+html .icon-a10_appointment_online_details .path2:before,
+html .icon-A10_appointment_online_details .path2:before {
+    content: "\e9da";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a10_appointment_online_details .path3:before,
+html .icon-A10_appointment_online_details .path3:before {
+    content: "\e9db";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a11_appointment_tv_installation .path1:before,
+html .icon-A11_appointment_tv_installation .path1:before {
+    content: "\e9dc";
+    color: #E99E00;
+}
+
+html .icon-a11_appointment_tv_installation .path2:before,
+html .icon-A11_appointment_tv_installation .path2:before {
+    content: "\e9dd";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a11_appointment_tv_installation .path3:before,
+html .icon-A11_appointment_tv_installation .path3:before {
+    content: "\e9de";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a12_appointment_modem_installation .path1:before,
+html .icon-A12_appointment_modem_installation .path1:before {
+    content: "\e9df";
+    color: #E99E00;
+}
+
+html .icon-a12_appointment_modem_installation .path2:before,
+html .icon-A12_appointment_modem_installation .path2:before {
+    content: "\e9e0";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a12_appointment_modem_installation .path3:before,
+html .icon-A12_appointment_modem_installation .path3:before {
+    content: "\e9e1";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a14_speed_boost_eligible .path1:before,
+html .icon-A14_speed_boost_eligible .path1:before {
+    content: "\e9e2";
+    color: #E99E00;
+}
+
+html .icon-a14_speed_boost_eligible .path2:before,
+html .icon-A14_speed_boost_eligible .path2:before {
+    content: "\e9e3";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a14_speed_boost_eligible .path3:before,
+html .icon-A14_speed_boost_eligible .path3:before {
+    content: "\e9e4";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a15_date_first_bill_available .path1:before,
+html .icon-A15_date_first_bill_available .path1:before {
+    content: "\e9e5";
+    color: #E99E00;
+}
+
+html .icon-a15_date_first_bill_available .path2:before,
+html .icon-A15_date_first_bill_available .path2:before {
+    content: "\e9e6";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a15_date_first_bill_available .path3:before,
+html .icon-A15_date_first_bill_available .path3:before {
+    content: "\e9e7";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a16_bill_is_ready .path1:before,
+html .icon-A16_bill_is_ready .path1:before {
+    content: "\e9e8";
+    color: #E99E00;
+}
+
+html .icon-a16_bill_is_ready .path2:before,
+html .icon-A16_bill_is_ready .path2:before {
+    content: "\e9e9";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a16_bill_is_ready .path3:before,
+html .icon-A16_bill_is_ready .path3:before {
+    content: "\e9ea";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a18_roaming_travel_pass .path1:before,
+html .icon-A18_roaming_travel_pass .path1:before {
+    content: "\e9eb";
+    color: #E99E00;
+}
+
+html .icon-a18_roaming_travel_pass .path2:before,
+html .icon-A18_roaming_travel_pass .path2:before {
+    content: "\e9ec";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a18_roaming_travel_pass .path3:before,
+html .icon-A18_roaming_travel_pass .path3:before {
+    content: "\e9ed";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a19_travel_section .path1:before,
+html .icon-A19_travel_section .path1:before {
+    content: "\e9ee";
+    color: #E99E00;
+}
+
+html .icon-a19_travel_section .path2:before,
+html .icon-A19_travel_section .path2:before {
+    content: "\e9ef";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a19_travel_section .path3:before,
+html .icon-A19_travel_section .path3:before {
+    content: "\e9f0";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a22_HUG_eligible .path1:before,
+html .icon-A22_HUG_eligible .path1:before {
+    content: "\e9f1";
+    color: #E99E00;
+}
+
+html .icon-a22_HUG_eligible .path2:before,
+html .icon-A22_HUG_eligible .path2:before {
+    content: "\e9f2";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a22_HUG_eligible .path3:before,
+html .icon-A22_HUG_eligible .path3:before {
+    content: "\e9f3";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a23_partial_HUG_eligible .path1:before,
+html .icon-A23_partial_HUG_eligible .path1:before {
+    content: "\e9f4";
+    color: #E99E00;
+}
+
+html .icon-a23_partial_HUG_eligible .path2:before,
+html .icon-A23_partial_HUG_eligible .path2:before {
+    content: "\e9f5";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a23_partial_HUG_eligible .path3:before,
+html .icon-A23_partial_HUG_eligible .path3:before {
+    content: "\e9f6";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a24_add_a_line .path1:before,
+html .icon-A24_add_a_line .path1:before {
+    content: "\e9f7";
+    color: #E99E00;
+}
+
+html .icon-a24_add_a_line .path2:before,
+html .icon-A24_add_a_line .path2:before {
+    content: "\e9f8";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a24_add_a_line .path3:before,
+html .icon-A24_add_a_line .path3:before {
+    content: "\e9f9";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a27_mobility_modification .path1:before,
+html .icon-A27_mobility_modification .path1:before {
+    content: "\e9fa";
+    color: #E99E00;
+}
+
+html .icon-a27_mobility_modification .path2:before,
+html .icon-A27_mobility_modification .path2:before {
+    content: "\e9fb";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a27_mobility_modification .path3:before,
+html .icon-A27_mobility_modification .path3:before {
+    content: "\e9fc";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a28_credit_card_expiration_date .path1:before,
+html .icon-A28_credit_card_expiration_date .path1:before {
+    content: "\e9fd";
+    color: #E99E00;
+}
+
+html .icon-a28_credit_card_expiration_date .path2:before,
+html .icon-A28_credit_card_expiration_date .path2:before {
+    content: "\e9fe";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a28_credit_card_expiration_date .path3:before,
+html .icon-A28_credit_card_expiration_date .path3:before {
+    content: "\e9ff";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a29_promo_soon_ending .path1:before,
+html .icon-A29_promo_soon_ending .path1:before {
+    content: "\ea00";
+    color: #E99E00;
+}
+
+html .icon-a29_promo_soon_ending .path2:before,
+html .icon-A29_promo_soon_ending .path2:before {
+    content: "\ea01";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a29_promo_soon_ending .path3:before,
+html .icon-A29_promo_soon_ending .path3:before {
+    content: "\ea02";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a30_bill_update .path1:before,
+html .icon-A30_bill_update .path1:before {
+    content: "\ea03";
+    color: #E99E00;
+}
+
+html .icon-a30_bill_update .path2:before,
+html .icon-A30_bill_update .path2:before {
+    content: "\ea04";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a30_bill_update .path3:before,
+html .icon-A30_bill_update .path3:before {
+    content: "\ea05";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a31_pay_your_bill_now .path1:before,
+html .icon-A31_pay_your_bill_now .path1:before {
+    content: "\ea06";
+    color: #E99E00;
+}
+
+html .icon-a31_pay_your_bill_now .path2:before,
+html .icon-A31_pay_your_bill_now .path2:before {
+    content: "\ea07";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a31_pay_your_bill_now .path3:before,
+html .icon-A31_pay_your_bill_now .path3:before {
+    content: "\ea08";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a33_ebill .path1:before,
+html .icon-A33_ebill .path1:before {
+    content: "\ea09";
+    color: #E99E00;
+}
+
+html .icon-a33_ebill .path2:before,
+html .icon-A33_ebill .path2:before {
+    content: "\ea0a";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a33_ebill .path3:before,
+html .icon-A33_ebill .path3:before {
+    content: "\ea0b";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a34_service_cancelled .path1:before,
+html .icon-A34_service_cancelled .path1:before {
+    content: "\ea0c";
+    color: #E99E00;
+}
+
+html .icon-a34_service_cancelled .path2:before,
+html .icon-A34_service_cancelled .path2:before {
+    content: "\ea0d";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a34_service_cancelled .path3:before,
+html .icon-A34_service_cancelled .path3:before {
+    content: "\ea0e";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a35_bill_with_loyalty_price .path1:before,
+html .icon-A35_bill_with_loyalty_price .path1:before {
+    content: "\ea0f";
+    color: #E99E00;
+}
+
+html .icon-a35_bill_with_loyalty_price .path2:before,
+html .icon-A35_bill_with_loyalty_price .path2:before {
+    content: "\ea10";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a35_bill_with_loyalty_price .path3:before,
+html .icon-A35_bill_with_loyalty_price .path3:before {
+    content: "\ea11";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a37_equipment_shipped .path1:before,
+html .icon-A37_equipment_shipped .path1:before {
+    content: "\ea12";
+    color: #E99E00;
+}
+
+html .icon-a37_equipment_shipped .path2:before,
+html .icon-A37_equipment_shipped .path2:before {
+    content: "\ea13";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a37_equipment_shipped .path3:before,
+html .icon-A37_equipment_shipped .path3:before {
+    content: "\ea14";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a38_equipment_received .path1:before,
+html .icon-A38_equipment_received .path1:before {
+    content: "\ea15";
+    color: #E99E00;
+}
+
+html .icon-a38_equipment_received .path2:before,
+html .icon-A38_equipment_received .path2:before {
+    content: "\ea16";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a38_equipment_received .path3:before,
+html .icon-A38_equipment_received .path3:before {
+    content: "\ea17";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a39_equipment_to_be_return .path1:before,
+html .icon-A39_equipment_to_be_return .path1:before {
+    content: "\ea18";
+    color: #E99E00;
+}
+
+html .icon-a39_equipment_to_be_return .path2:before,
+html .icon-A39_equipment_to_be_return .path2:before {
+    content: "\ea19";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a39_equipment_to_be_return .path3:before,
+html .icon-A39_equipment_to_be_return .path3:before {
+    content: "\ea1a";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a40_equipment_return .path1:before,
+html .icon-A40_equipment_return .path1:before {
+    content: "\ea1e";
+    color: #E99E00;
+}
+
+html .icon-a40_equipment_return .path2:before,
+html .icon-A40_equipment_return .path2:before {
+    content: "\ea1f";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a40_equipment_return .path3:before,
+html .icon-A40_equipment_return .path3:before {
+    content: "\ea20";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a42_tv_promo .path1:before,
+html .icon-A42_tv_promo .path1:before {
+    content: "\ea21";
+    color: #E99E00;
+}
+
+html .icon-a42_tv_promo .path2:before,
+html .icon-A42_tv_promo .path2:before {
+    content: "\ea22";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a42_tv_promo .path3:before,
+html .icon-A42_tv_promo .path3:before {
+    content: "\ea23";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a50_generic_exclamation .path1:before,
+html .icon-A50_generic_exclamation .path1:before {
+    content: "\ea1b";
+    color: #E99E00;
+}
+
+html .icon-a50_generic_exclamation .path2:before,
+html .icon-A50_generic_exclamation .path2:before {
+    content: "\ea1c";
+    margin-left: -1em;
+    color: #fff;
+}
+
+html .icon-a50_generic_exclamation .path3:before,
+html .icon-A50_generic_exclamation .path3:before {
+    content: "\ea1d";
+    margin-left: -1em;
+    color: #E99E00;
+}
+
+html .icon-a1_effective_date_single:before {
+    content: "\ea24";
+}
+
+html .icon-a2_payment_confirmation_single:before {
+    content: "\ea25";
+}
+
+html .icon-a3_payment_received_single:before {
+    content: "\ea26";
+}
+
+html .icon-a4_promote_activity_online_mobility_single:before {
+    content: "\ea27";
+}
+
+html .icon-a6_promote_activity_online_internet_single:before {
+    content: "\ea28";
+}
+
+html .icon-a8_promote_activity_online_payment_single:before {
+    content: "\ea29";
+}
+
+html .icon-a10_appointment_online_details_single:before {
+    content: "\ea2a";
+}
+
+html .icon-a11_appointment_tv_installation_single:before {
+    content: "\ea2b";
+}
+
+html .icon-a12_appointment_modem_installation_single:before {
+    content: "\ea2c";
+}
+
+html .icon-a14_speed_boost_eligible_single:before {
+    content: "\ea2d";
+}
+
+html .icon-a15_date_first_bill_available_single:before {
+    content: "\ea2e";
+}
+
+html .icon-a16_bill_is_ready_single:before {
+    content: "\ea2f";
+}
+
+html .icon-a18_roaming_travel_pass_single:before {
+    content: "\ea30";
+}
+
+html .icon-a19_travel_section_single:before {
+    content: "\ea31";
+}
+
+html .icon-a22_HUG_eligible_single:before {
+    content: "\ea32";
+}
+
+html .icon-a23_partial_HUG_eligible_single:before {
+    content: "\ea33";
+}
+
+html .icon-a24_add_a_line_single:before {
+    content: "\ea34";
+}
+
+html .icon-a27_mobility_modification_single:before {
+    content: "\ea35";
+}
+
+html .icon-a28_credit_card_expiration_date_single:before {
+    content: "\ea36";
+}
+
+html .icon-a29_promo_soon_ending_single:before {
+    content: "\ea37";
+}
+
+html .icon-a30_bill_update_single:before {
+    content: "\ea38";
+}
+
+html .icon-a31_pay_your_bill_now_single:before {
+    content: "\ea39";
+}
+
+html .icon-a33_ebill_single:before {
+    content: "\ea3a";
+}
+
+html .icon-a34_service_cancelled_single:before {
+    content: "\ea3b";
+}
+
+html .icon-a35_bill_with_loyalty_price_single:before {
+    content: "\ea3c";
+}
+
+html .icon-a37_equipment_shipped_single:before {
+    content: "\ea3d";
+}
+
+html .icon-a38_equipment_received_single:before {
+    content: "\ea3e";
+}
+
+html .icon-a39_equipment_to_be_return_single:before {
+    content: "\ea3f";
+}
+
+html .icon-a40_equipment_return_single:before {
+    content: "\ea40";
+}
+
+html .icon-a43_internet_promo_single:before {
+    content: "\ea41";
+}
+
+html .icon-a50_generic_exclamation_single:before {
+    content: "\ea42";
+}
+
+.icon-dap.icon-dap {
+    font-family: 'virgin-personalization-icons' !important;
+    font-style: normal;
+    position: static;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dap.icon-dap[class*=" icon-"] span {
+    font-family: virgin-personalization-icons!important;
+}
+
+    .icon-dap.icon-dap.icon-like_stroke .path1:before {
+        content: "\e909";
+        color: #555;
+    }
+    .icon-dap.icon-dap.icon-like_stroke .path2:before {
+        content: "\e90a";
+        color: rgba(255, 255, 255, 0.79);
+        margin-left: -1.09765625em;
+    }
+    .icon-dap.icon-dap.icon-like_stroke .path3:before {
+        content: "\e90b";
+        color: rgba(255, 255, 255, 0.79);
+        margin-left: -1.09765625em;
+    }
+
+    a.dap-like-toggle[aria-pressed="true"] .icon-dap.icon-dap.icon-like_stroke .path1:before {
+        content: "\e90c";
+        color: #BD2025;
+    }
+
+    a.dap-like-toggle[aria-pressed="true"] .icon-dap.icon-dap.icon-like_stroke .path2:before {
+        content: "\e90a";
+        color: #fff;
+        opacity: 0.79;
+        margin-left: -1.09765625em;
+    }
+
+    a.dap-like-toggle[aria-pressed="true"] .icon-dap.icon-dap.icon-like_stroke .path3:before {
+        content: none;
+    }
+
+    .icon-dap.icon-dap.icon-burger_stroke .path1:before {
+        content: "\e905";
+        color: rgba(255, 255, 255, 0.79);
+    }
+
+    .icon-dap.icon-dap.icon-burger_stroke .path2:before {
+        content: "\e906";
+        color: #555;
+        margin-left: -0.375em;
+    }
+
+    .icon-dap.icon-dap.icon-plus:before {
+        content: "\e904";
+    }
+
+    .icon-dap.icon-dap.icon-x:before {
+        content: "\e904";
+        transform: rotate(45deg);
+        display: inline-flex;
+    }
+
+    .icon-dap.icon-dap.icon-promote_activity:before {
+        content: "\e906";
+    }
+
+.personalization-revamped-modal .icon-close:before,
+.dap-modal .icon-close:before,
+.personalization-modal .icon-close:before {
+    font-family: 'virgin-personalization-icons' !important;
+    content: "\e907";
+}
+
+.personalization-slider-container .slick-next:focus:before, .personalization-slider-container .slick-next:hover:before, .personalization-slider-container .slick-prev:focus:before, .personalization-slider-container .slick-prev:hover:before {
+    opacity: 1
+}
+
+.personalization-slider-container .slick-prev:before {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.personalization-slider-container[dir=rtl] .slick-prev {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.personalization-slider-container[dir=rtl] .slick-next {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.personalization-slider-container .icon-arrow-right-circle:before {
+	content: "\e902";
+}
+
+.personalization-revamped-modal .icon-close-thin {
+	font-family: 'virgin-personalization-icons' !important;
+}
+
+.personalization-revamped-modal .icon-close-thin:before {
+	font-family: 'virgin-personalization-icons' !important;
+	content: "\e624";
+}
